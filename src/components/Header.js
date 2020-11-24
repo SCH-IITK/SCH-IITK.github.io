@@ -1,49 +1,52 @@
 import React from "react";
-import { Navbar, Nav, Button, Form, FormControl } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  Button,
+  Form,
+  FormControl,
+  Image,
+  Row,
+  Col,
+} from "react-bootstrap";
+import logo from "./SCH_professional_logo.jpg";
+import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Header() {
   return (
-    <div>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info">Search</Button>
-        </Form>
-      </Navbar>
-      <br />
-      <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-light">Search</Button>
-        </Form>
-      </Navbar>
-
-      <br />
-      <Navbar bg="light" variant="light">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-primary">Search</Button>
-        </Form>
-      </Navbar>
-    </div>
+    <Router>
+      <Row>
+        <Col sm={12}>
+          <div className="header">
+            <Navbar variant="dark" expand="sm" collapseOnSelect>
+              <Navbar.Brand href="/">SCH</Navbar.Brand>
+              <Navbar.Brand href="/">
+                <img
+                  src={logo}
+                  width="30"
+                  height="30"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                />
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link href="/" active>
+                    Home
+                  </Nav.Link>
+                  <Nav.Link href="blog">Blog</Nav.Link>
+                  <Nav.Link href="projects">Projects</Nav.Link>
+                  <Nav.Link href="announcements">Announcements</Nav.Link>
+                  <Nav.Link href="contact">Contact US</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+          </div>
+        </Col>
+      </Row>
+    </Router>
   );
 }
 

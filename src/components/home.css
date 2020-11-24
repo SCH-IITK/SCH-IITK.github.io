@@ -1,0 +1,26 @@
+.intro {
+  background-color: #000e1f;
+}
+.intro-image {
+  height: auto;
+  max-height: 550px;
+  width: 100%;
+}
+.intro-text {
+  color: ghostwhite;
+  font-size: 6vw;
+  text-align: center;
+  justify-content: center;
+  padding-top: 12vw;
+  padding-bottom: 5vw;
+}
+.aboutUs {
+  background-color: #e1eff2;
+}
+.blank {
+  height: 6vw;
+  background-color: white;
+}
+.aboutUsContent {
+  padding: 50px;
+}
