@@ -27,16 +27,20 @@ function Footer() {
       </Row>
       <Row className="justify-content-center justify-content-md-center p-2">
         <Col md={1} xs={1}>
-          <a href="#https://www.facebook.com/">
+          <a href="https://www.facebook.com/" target="_blank">
             <FaFacebook color="white" />
           </a>
         </Col>
 
         <Col md={1} xs={1}>
-          <FaFacebookMessenger color="white" />
+          <a href="https://www.facebook.com" target="_blank">
+            <FaFacebookMessenger color="white" />
+          </a>
         </Col>
         <Col md={1} xs={1}>
-          <FaDiscord color="white" />
+          <a href="https://www.facebook.com" target="_blank">
+            <FaDiscord color="white" />
+          </a>
         </Col>
       </Row>
     </div>
