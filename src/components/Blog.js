@@ -3,22 +3,18 @@ import termsFrPath from "../content/sample.md";
 import ReactMarkdown from "react-markdown";
 import React, { useState, useEffect } from "react";
 
-function blog() {
+function Blog() {
   const [term, setTerm] = useState("");
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    const readmePath = require("./Readme.md");
-
-    fetch(readmePath)
-      .then((response) => {
-        return response.text();
-      })
+    fetch(termsFrPath)
+      .then((response) => response.text())
       .then((text) => {
-        setTerm(marked(text));
+        this.setTerm(text);
       });
   });
   return <div></div>;
 }
 
-export default blog;
+export default Blog;
