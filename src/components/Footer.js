@@ -7,6 +7,7 @@ import { withTheme } from "@material-ui/core";
 function Footer() {
   return (
     <div className="footer">
+      <Container fluid="md">
       <Row className="p-3">
         <Col md={6} xs={6}>
           <h5 text="text-uppercase">Adress</h5>
@@ -27,22 +28,23 @@ function Footer() {
       </Row>
       <Row className="justify-content-center justify-content-md-center p-2">
         <Col md={1} xs={1}>
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/SCHIITK" target="_blank">
             <FaFacebook color="white" />
           </a>
         </Col>
 
         <Col md={1} xs={1}>
-          <a href="https://www.facebook.com" target="_blank">
+          <a href="m.me/SCHIITK" target="_blank">
             <FaFacebookMessenger color="white" />
           </a>
         </Col>
         <Col md={1} xs={1}>
-          <a href="https://www.facebook.com" target="_blank">
+          <a href="https://discord.gg/zMPnVQAk" target="_blank">
             <FaDiscord color="white" />
           </a>
         </Col>
       </Row>
+      </Container>
     </div>
   );
 }
