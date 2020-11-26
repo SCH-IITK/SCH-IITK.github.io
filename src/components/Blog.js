@@ -1,8 +1,8 @@
 import Markdown from "./Markdown";
 import termsFrPath from "../content/sample.md";
-import ReactMarkdown from "react-markdown";
-import React, { useState, useEffect } from "react";
 
+import React, { useState, useEffect } from "react";
+import { Row, Col, Container } from "react-bootstrap";
 function Blog() {
   const [term, setTerm] = useState("");
 
@@ -11,10 +11,16 @@ function Blog() {
     fetch(termsFrPath)
       .then((response) => response.text())
       .then((text) => {
-        this.setTerm(text);
+        setTerm(text);
       });
   });
-  return <div></div>;
+  return (
+    <Row className="justify-content-center p-2">
+      <Col md={6} className="justify-content-center">
+        <Markdown className="blog">{term}</Markdown>
+      </Col>
+    </Row>
+  );
 }
 
 export default Blog;
