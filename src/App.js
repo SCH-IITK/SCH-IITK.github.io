@@ -5,36 +5,39 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
+import Blogs from "./components/Blogs";
+import Announcements from "./components/Announcements";
+import Blog from "./components/Blog";
+
 function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <Switch>
           <Route exact path="/">
-            <Header />
             <Home />
             <div className="blank"></div>
             <Footer />
           </Route>
 
           <Route path="/blog">
-            <Header />
+            <Blogs />
             <Footer />
           </Route>
 
           <Route path="/contact">
-            <Header />
             <AboutUs />
             <Footer />
           </Route>
 
           <Route path="/announcements">
-            <Header />
+            <Announcements />
+            <Blog />
             <Footer />
           </Route>
 
           <Route path="/projects">
-            <Header />
             <Footer />
           </Route>
         </Switch>

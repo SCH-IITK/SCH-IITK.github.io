@@ -1,5 +1,6 @@
 .intro {
   background-color: #000e1f;
+  text-align: center;
 }
 .intro-image {
   height: auto;
@@ -13,9 +14,11 @@
   justify-content: center;
   padding-top: 12vw;
   padding-bottom: 5vw;
+  text-align: center;
 }
 .aboutUs {
   background-color: #e1eff2;
+  text-align: center;
 }
 .blank {
   height: 6vw;
@@ -23,4 +26,5 @@
 }
 .aboutUsContent {
   padding: 50px;
+  text-align: center;
 }

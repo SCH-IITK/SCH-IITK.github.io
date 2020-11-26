@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./home.css";
 function Home() {
   return (
-    <Container fluid>
+    <Container fluid="md">
       <Row className="intro">
         <Col md={6} sm={6} xs={12} className="intro-image">
           <img src={intro} className="intro-image" />
