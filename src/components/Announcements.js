@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import blog from "../content/sample.md";
 function Announcements() {
   const source = "# hello ";
-  return <div>This is Announcements</div>;
+  return <div>.</div>;
 }
 
 export default Announcements;
