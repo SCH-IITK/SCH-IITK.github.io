@@ -6,3 +6,7 @@
   height: auto;
   width: 50px;
 }
+.header {
+  padding: 0% !important;
+  margin: 0%;
+}

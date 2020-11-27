@@ -11,7 +11,7 @@ function AboutUs() {
       <Row className=" p-3 justify-content-center">
         <h3>Leaders</h3>
       </Row>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content-md-center  justify-content-xs-center">
         <Col md={4}>
           <Card style={{ width: "18rem" }} text="white" className="card">
             <Card.Img
