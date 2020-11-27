@@ -23,8 +23,8 @@ function Blogs() {
   const classes = useStyles();
 
   return (
-    <Row className="justify-content-md-center">
-      <Row md={12} className="p-5 justify-content-md-center ">
+    <Row className="justify-content-xs-center">
+      <Row md={12} className="p-5 justify-content-xs-center ">
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
@@ -33,7 +33,7 @@ function Blogs() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Lizard
+                Lii
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 Lizards are a widespread group of squamate reptiles, with over

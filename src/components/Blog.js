@@ -21,7 +21,7 @@ function Blog() {
           <Markdown className="blog">{term}</Markdown>
         </Col>
       </Row>
-      <Row className="justify-content-sm-center mt-5">
+      <Row className="justify-content-md-center  justify-content-xs-center mt-5">
         <div
           class="fb-like"
           data-href="http://localhost:3000/announcements"
@@ -32,7 +32,7 @@ function Blog() {
           data-share="true"
         ></div>
       </Row>
-      <Row className="justify-content-sm-center ">
+      <Row className="justify-content-md-center  justify-content-xs-center">
         <div
           class="fb-comments"
           data-href="http://localhost:3000/announcements"

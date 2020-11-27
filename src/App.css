@@ -15,13 +15,15 @@
 }
 
 .content {
-  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
+
 div:empty {
   padding-top:25px;
   height:0;
-  /* display:none; */
+
+.App {
+  width: 100%;
 }
