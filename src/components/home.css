@@ -1,11 +1,16 @@
 .intro {
   background-color: #000e1f;
   text-align: center;
+  justify-content: center;
+  padding-top: 50px;
 }
 .intro-image {
-  height: auto;
+  height: 100%;
   max-height: 550px;
+  max-width: 550px;
   width: 100%;
+  justify-content: center;
+  text-align: center;
 }
 .intro-text {
   color: ghostwhite;
@@ -27,4 +32,7 @@
 .aboutUsContent {
   padding: 50px;
   text-align: center;
+}
+.container-sm{
+  padding: 10px;
 }

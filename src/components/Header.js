@@ -20,7 +20,7 @@ function Header() {
       <Row>
         <Col sm={12}>
           <div className="header">
-            <Navbar variant="dark" expand="sm" collapseOnSelect>
+            <Navbar variant="dark" expand="sm" collapseOnSelect fixed="top">
               <Container fluid="md">
                 <Navbar.Brand href="/">SCH</Navbar.Brand>
                 <Navbar.Brand href="/">
@@ -39,7 +39,7 @@ function Header() {
                     <Nav.Link href="blog">Blog</Nav.Link>
                     <Nav.Link href="projects">Projects</Nav.Link>
                     <Nav.Link href="announcements">Announcements</Nav.Link>
-                    <Nav.Link href="contact">Contact US</Nav.Link>
+                    <Nav.Link href="contact">Contact Us</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
