@@ -15,11 +15,32 @@ function Blog() {
       });
   });
   return (
-    <Row className="justify-content-center p-2">
-      <Col md={6} className="justify-content-center">
-        <Markdown className="blog">{term}</Markdown>
-      </Col>
-    </Row>
+    <Container>
+      <Row className="justify-content-center p-2">
+        <Col md={6} className="justify-content-center">
+          <Markdown className="blog">{term}</Markdown>
+        </Col>
+      </Row>
+      <Row className="justify-content-sm-center mt-5">
+        <div
+          class="fb-like"
+          data-href="http://localhost:3000/announcements"
+          data-width=""
+          data-layout="standard"
+          data-action="like"
+          data-size="small"
+          data-share="true"
+        ></div>
+      </Row>
+      <Row className="justify-content-sm-center ">
+        <div
+          class="fb-comments"
+          data-href="http://localhost:3000/announcements"
+          data-numposts="5"
+          data-width=""
+        ></div>
+      </Row>
+    </Container>
   );
 }
 
