@@ -23,6 +23,7 @@
 div:empty {
   padding-top:25px;
   height:0;
+}
 
 .App {
   width: 100%;
