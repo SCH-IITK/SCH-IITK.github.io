@@ -14,33 +14,29 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <div class="empty"></div>
         <Switch>
           <Route exact path="/">
             <Home />
-            <div className="blank"></div>
-            <Footer />
           </Route>
 
           <Route path="/blog">
             <Blogs />
-            <Footer />
           </Route>
 
           <Route path="/contact">
             <AboutUs />
-            <Footer />
           </Route>
 
           <Route path="/announcements">
             <Announcements />
             <Blog />
-            <Footer />
           </Route>
 
           <Route path="/projects">
-            <Footer />
           </Route>
         </Switch>
+      <Footer />
       </div>
     </Router>
   );

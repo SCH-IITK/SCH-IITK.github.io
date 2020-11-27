@@ -14,6 +14,7 @@ import logo from "./SCH_professional_logo.jpg";
 import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 function Header() {
   return (
     <Router>
@@ -23,7 +24,7 @@ function Header() {
             <Navbar variant="dark" expand="sm" collapseOnSelect fixed="top">
               <Container fluid="md">
                 <Navbar.Brand href="/">SCH</Navbar.Brand>
-                <Navbar.Brand href="/">
+                {/* <Navbar.Brand href="/">
                   <img
                     src={logo}
                     width="30"
@@ -31,7 +32,7 @@ function Header() {
                     className="d-inline-block align-top"
                     alt="React Bootstrap logo"
                   />
-                </Navbar.Brand>
+                </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
