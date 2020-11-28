@@ -21,7 +21,7 @@ function Header() {
       <Row>
         <Col sm={12}>
           <div className="header">
-            <Navbar variant="dark" expand="sm" collapseOnSelect fixed="top">
+            <Navbar variant="dark" expand="lg" collapseOnSelect fixed="top">
               <Container fluid="md">
                 <Navbar.Brand href="/">SCH</Navbar.Brand>
                 {/* <Navbar.Brand href="/">
@@ -37,10 +37,10 @@ function Header() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="blog">Blog</Nav.Link>
-                    <Nav.Link href="projects">Projects</Nav.Link>
-                    <Nav.Link href="announcements">Announcements</Nav.Link>
-                    <Nav.Link href="contact">Contact Us</Nav.Link>
+                    <Nav.Link href="/blog">Blogs</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/announcements">Announcements</Nav.Link>
+                    <Nav.Link href="/contact">Contact Us</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>

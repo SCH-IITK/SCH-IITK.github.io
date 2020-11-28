@@ -20,8 +20,12 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/blog">
+          <Route exact path="/blog">
             <Blogs />
+          </Route>
+
+          <Route exact path="/blog/:id">
+            <Blog />
           </Route>
 
           <Route path="/contact">
@@ -30,13 +34,11 @@ function App() {
 
           <Route path="/announcements">
             <Announcements />
-            <Blog />
           </Route>
 
-          <Route path="/projects">
-          </Route>
+          <Route path="/projects">.</Route>
         </Switch>
-      <Footer />
+        <Footer />
       </div>
     </Router>
   );
