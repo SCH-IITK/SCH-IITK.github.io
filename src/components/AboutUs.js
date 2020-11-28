@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, Card, CardDeck } from "react-bootstrap";
 function AboutUs() {
   return (
-    <div className="people">
+    <div className="people mt-4">
       <Row className=" p-3 justify-content-center">
         <h1>MEET THE TEAM</h1>
       </Row>
