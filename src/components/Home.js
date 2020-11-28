@@ -15,7 +15,7 @@ function Home() {
           Website is under construction!
         </Alert>
         <Row>
-          <Col xs={12} md={8}>
+          <Col xs={12} md={8} Style="font-family: 'Nerko One';">
             <h1>Welcome to SCH</h1>
             <p>More text here that can be added, adjusted etc.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel sodales dolor. Etiam finibus euismod massa nec facilisis. Aliquam ac tincidunt lorem. Ut et lectus et ante cursus commodo. Vivamus varius orci non egestas convallis. Duis sit amet rutrum libero. Praesent tempor, sem in venenatis mollis, massa nisl aliquet sem, sit amet finibus justo quam sed orci. Curabitur ut vehicula magna. Nulla in sapien dignissim, iaculis massa nec, finibus nibh. Nunc vitae placerat ante, eget imperdiet eros.</p>  

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@300&display=swap');
+
 .App-header {
   background-color: #000e1f;
   min-height: 400vh;
@@ -8,6 +10,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
+  font-family: 'Lora', serif;
 }
 .blank {
   padding-top: 55px;
@@ -27,4 +30,5 @@ div:empty {
 
 .App {
   width: 100%;
+  font-family: 'Lora', serif;
 }
