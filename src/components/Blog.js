@@ -12,7 +12,7 @@ function Blog() {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     const readmePath = require(`../content/${id}.md`);
-    setAddress("http://localhost:3000/#/blog/" + id);
+    setAddress("http://localhost:3000/blog/" + id);
     fetch(readmePath.default)
       .then((response) => response.text())
       .then((text) => {
