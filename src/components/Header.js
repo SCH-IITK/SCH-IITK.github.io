@@ -11,6 +11,8 @@ import {
   Container,
 } from "react-bootstrap";
 import logo from "./SCH_professional_logo.jpg";
+import { createBrowserHistory } from "history";
+
 import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
@@ -23,7 +25,10 @@ import {
 
 function Header() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter
+      basename={process.env.PUBLIC_URL}
+      history={createBrowserHistory()}
+    >
       <Row>
         <Col sm={12}>
           <div className="header">

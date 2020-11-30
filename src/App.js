@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import React from "react";
+import { createBrowserHistory } from "history";
 import Footer from "./components/Footer";
 import {
   BrowserRouter as Router,
@@ -17,22 +18,16 @@ import Blog from "./components/Blog";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/" history={createBrowserHistory()}>
       <div className="App">
         <Header />
         <div class="empty"></div>
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
+          <Route exact path="/" component={Home} />
 
-          <Route exact path="/blog">
-            <Blogs />
-          </Route>
+          <Route exact path="/blog" component={Blogs} />
 
-          <Route exact path="/blog/:id">
-            <Blog />
-          </Route>
+          <Route exact path="/blog/:id" component={Blog} />
 
           <Route path="/contact">
             <AboutUs />

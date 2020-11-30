@@ -16,6 +16,7 @@ const useStyles = makeStyles({
 
 function Blogs() {
   const classes = useStyles();
+  localStorage.setItem("reload", "Reload");
   var content = blogs.blogs.map((blog) => {
     return `<Row
     md={12}
@@ -48,7 +49,7 @@ function Blogs() {
   </Row>`;
   });
   content = content.join();
-  console.log(blogs, "Hello", content);
+
   return (
     <Row className="justify-content-xs-center justify-content-md-center">
       {blogs.blogs.map((blog) => {
