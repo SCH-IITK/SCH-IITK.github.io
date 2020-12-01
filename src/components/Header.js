@@ -24,6 +24,19 @@ import {
 } from "react-router-dom";
 
 function Header() {
+//   var navbarCSS = document.getElementById("#header");
+//   window.onscroll = function() {
+//     if (window.screenTop > 0) {
+//         alert("Working");
+//         navbarCSS.style.boxShadow = "0px 1px 10px #999";
+//         // navbarCSS.classList.addClass("navbarFloat");
+//     } else {
+//         // document.getElementsByClassName("header");
+//         navbarCSS.style.boxShadow = "0px 0px 0px #999";
+//         // navbarCSS.removeClass("navbarFloat");
+//     }
+// };
+
   return (
     <HashRouter
       basename={process.env.PUBLIC_URL}
@@ -31,7 +44,7 @@ function Header() {
     >
       <Row>
         <Col sm={12}>
-          <div className="header">
+          <div className="header" id="header">
             <Navbar variant="dark" expand="lg" collapseOnSelect fixed="top">
               <Container fluid="md">
                 <Navbar.Brand href="/">SCH</Navbar.Brand>

@@ -23,7 +23,7 @@ function Home() {
           <Col xs={12} md={4}>
             <Card bg='white'>
               <Card.Body>
-                <Card.Title>About Us</Card.Title>
+                <Card.Title><h5>About Us</h5></Card.Title>
                 <Card.Text>
                   About us contentgoes here
                 </Card.Text>
