@@ -1,8 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
-import { Container, Row, Col } from "react-bootstrap";
-import ReactMarkdown from "react-markdown";
+import { Container, Row } from "react-bootstrap";
 import blogs from "../content/blogs.json";
 import BlogCard from "./BlogCard";
 const useStyles = makeStyles({
@@ -51,20 +50,22 @@ function Blogs() {
   content = content.join();
 
   return (
-    <Row className="justify-content-xs-center justify-content-md-center">
-      {blogs.blogs.map((blog) => {
-        return (
-          <BlogCard
-            name={blog.Name}
-            desc={blog.Desciption}
-            read={blog.time}
-            header={blog.Header}
-            imgUrl={blog.image}
-            id={blog.id}
-          />
-        );
-      })}
-    </Row>
+    <Container>
+      <Row className="justify-content-xs-center justify-content-md-center">
+        {blogs.blogs.map((blog) => {
+          return (
+            <BlogCard
+              name={blog.Name}
+              desc={blog.Desciption}
+              read={blog.time}
+              header={blog.Header}
+              imgUrl={blog.image}
+              id={blog.id}
+            />
+          );
+        })}
+      </Row>
+    </Container>
   );
 }
 

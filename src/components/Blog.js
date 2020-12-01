@@ -5,10 +5,8 @@ import { Row, Col, Container, Image } from "react-bootstrap";
 import { useParams } from "react-router";
 import blogs from "../content/blogs.json";
 import Typography from "@material-ui/core/Typography";
-import { createBrowserHistory } from "history";
 
 function Blog(props) {
-  console.log(props, "HEllo");
   if (localStorage.getItem("reload") == "Reload") {
     localStorage.setItem("reload", "NotReload");
     window.location.reload();
