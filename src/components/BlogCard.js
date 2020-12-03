@@ -13,7 +13,7 @@ import { Link } from "@material-ui/core";
 const useStyles = makeStyles({
   root: {
     display: "flex",
-    maxWidth: 800,
+    maxWidth: "100%",
     flexDirection: "column",
   },
   main: {
@@ -21,39 +21,37 @@ const useStyles = makeStyles({
     flexDirection: "row-reverse",
   },
   media: {
-    height: "200px !important ",
-    width: "800px",
+    height: "200px !important",
+    width: "100%",
     maxWidth: "250px",
   },
 });
 function BlogCard(props) {
   const classes = useStyles();
   return (
-    <div>
-      <Col className="pt-2 pb-2 justify-content-xs-center md={10}  justify-content-md-center ">
-        <Link href={"#/blog/" + props.id}>
-          <Card className={classes.root} href={"#/blog/" + props.id}>
-            <CardActionArea className={classes.main}>
-              <CardMedia className={classes.media} image={props.imgUrl} />
-              <CardContent href={"#/blog/" + props.id}>
-                <Typography variant="subtitle2" color="textSecondary">
-                  {props.name}
-                </Typography>
-                <Typography variant="caption" color="textSecondary">
-                  {props.read}
-                </Typography>
-                <Typography gutterBottom variant="h5" component="h2">
-                  {props.header}
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  {props.desc.substring(0, 200) + "....."}
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </Link>
-      </Col>
-    </div>
+    <Col md={8} xs={12} className="pt-2 pb-2  ">
+      <Link href={"#/blog/" + props.id} style={{ textDecoration: "none" }}>
+        <Card className={classes.root} href={"#/blog/" + props.id}>
+          <CardActionArea className={classes.main}>
+            <CardMedia className={classes.media} image={props.imgUrl} />
+            <CardContent href={"#/blog/" + props.id}>
+              <Typography variant="subtitle2" color="textSecondary">
+                {props.name}
+              </Typography>
+              <Typography variant="caption" color="textSecondary">
+                {props.read}
+              </Typography>
+              <Typography gutterBottom variant="h5" component="h2">
+                {props.header}
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                {props.desc.substring(0, 200) + "....."}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </Link>
+    </Col>
   );
 }
 
