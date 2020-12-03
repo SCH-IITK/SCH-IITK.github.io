@@ -51,7 +51,7 @@ function Blogs() {
 
   return (
     <Container>
-      <Row className="justify-content-xs-center justify-content-md-center">
+      <Row className="justify-content-xs-center justify-content-md-center my-3">
         {blogs.blogs.map((blog) => {
           return (
             <BlogCard
