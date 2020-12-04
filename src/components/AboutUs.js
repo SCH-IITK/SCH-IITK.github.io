@@ -12,8 +12,8 @@ function AboutUs() {
         <Row className=" p-3 justify-content-center">
           <h3>LEADERS</h3>
         </Row>
-        <Row className="justify-content-md-center  justify-content-xs-center p-2 my-4 ">
-          <Col md={4}>
+        <Row className="justify-content-md-center  justify-content-xs-center p-2  ">
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }} text="black" className="card">
               <Card.Img
                 variant="top"
@@ -28,7 +28,7 @@ function AboutUs() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
@@ -47,8 +47,8 @@ function AboutUs() {
         <Row className=" p-3 justify-content-center ">
           <h3>SECRETARIES</h3>
         </Row>
-        <Row className="justify-content-md-center p-2 my-4">
-          <Col md={4}>
+        <Row className="justify-content-md-center p-2 ">
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }} text="black" className="card">
               <Card.Img
                 variant="top"
@@ -63,7 +63,7 @@ function AboutUs() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
@@ -79,8 +79,8 @@ function AboutUs() {
             </Card>
           </Col>
         </Row>
-        <Row className="justify-content-md-center p-2 my-4">
-          <Col md={4}>
+        <Row className="justify-content-md-center p-2 ">
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }} text="black" className="card">
               <Card.Img
                 variant="top"
@@ -95,7 +95,7 @@ function AboutUs() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
@@ -114,8 +114,8 @@ function AboutUs() {
         <Row className=" p-3 justify-content-center">
           <h3>WEB DEVELOPMENT</h3>
         </Row>
-        <Row className="justify-content-md-center p-2 my-4">
-          <Col md={4}>
+        <Row className="justify-content-md-center p-2 ">
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }} text="black" className="card">
               <Card.Img
                 variant="top"
@@ -130,7 +130,7 @@ function AboutUs() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} className="my-4">
             <Card style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"

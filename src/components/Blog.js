@@ -59,6 +59,7 @@ function Blog(props) {
           <Markdown className="blog">{blog}</Markdown>
         </Col>
       </Row>
+
       <Row className="justify-content-md-center   mt-5">
         <Col xs={10} md={8}>
           <div
