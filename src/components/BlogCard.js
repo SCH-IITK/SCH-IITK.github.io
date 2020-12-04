@@ -30,7 +30,7 @@ const useStyles = makeStyles({
 function BlogCard(props) {
   const classes = useStyles();
   return (
-    <Col md={8} xs={12} className="pt-2 pb-2  ">
+    <Col md={12} xs={12} className="pt-2 pb-2  ">
       <Link href={"#/blog/" + props.id} style={{ textDecoration: "none" }}>
         <Card className={classes.root} href={"#/blog/" + props.id}>
           <CardActionArea className={classes.main}>
@@ -40,13 +40,18 @@ function BlogCard(props) {
                 {props.name}
               </Typography>
               <Typography variant="caption" color="textSecondary">
-                {props.read}
+                {props.date}
               </Typography>
+              <br />
+
               <Typography gutterBottom variant="h5" component="h2">
                 {props.header}
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 {props.desc.substring(0, 200) + "....."}
+              </Typography>
+              <Typography variant="caption" color="textSecondary">
+                Tags - {props.tags}
               </Typography>
             </CardContent>
           </CardActionArea>

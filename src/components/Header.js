@@ -64,6 +64,7 @@ function Header() {
                     <Nav.Link href="/#/blog">Blogs</Nav.Link>
                     <Nav.Link href="/#/projects">Projects</Nav.Link>
                     <Nav.Link href="/#/announcements">Announcements</Nav.Link>
+                    <Nav.Link href="/#/talks">Talks</Nav.Link>
                     <Nav.Link href="/#/contact">Contact Us</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>

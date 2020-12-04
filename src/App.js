@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import React from "react";
 import { createBrowserHistory } from "history";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import {
   BrowserRouter as Router,
@@ -28,6 +29,8 @@ function App() {
           <Route exact path="/blog" component={Blogs} />
 
           <Route exact path="/blog/:id" component={Blog} />
+          <Route path="/projects" component={Projects}></Route>
+          <Route exact path="/talks" />
 
           <Route path="/contact">
             <AboutUs />
@@ -36,8 +39,6 @@ function App() {
           <Route path="/announcements">
             <Announcements />
           </Route>
-
-          <Route path="/projects">.</Route>
         </Switch>
         <Footer />
       </div>

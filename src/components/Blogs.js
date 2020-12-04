@@ -16,38 +16,6 @@ const useStyles = makeStyles({
 function Blogs() {
   const classes = useStyles();
   localStorage.setItem("reload", "Reload");
-  var content = blogs.blogs.map((blog) => {
-    return `<Row
-    md={12}
-    className="p-5 justify-content-xs-center  justify-content-md-center "
-  >
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image="https://www.sciencenews.org/wp-content/uploads/2020/06/060320_dr_dragon-lizard_feat-800x450.jpg"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-           ${blog.Name}
-          </Typography>x
-          <Typography variant="body2" color="textSecondary" component="p">
-           ${blog.Desciption}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
-  </Row>`;
-  });
-  content = content.join();
 
   return (
     <Container>
@@ -57,8 +25,9 @@ function Blogs() {
             <BlogCard
               name={blog.Name}
               desc={blog.Desciption}
-              read={blog.time}
+              date={blog.date}
               header={blog.Header}
+              tags={blog.tags}
               imgUrl={blog.image}
               id={blog.id}
             />

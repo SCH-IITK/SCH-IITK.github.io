@@ -20,7 +20,7 @@ function Blog(props) {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     setMeta(blogs.blogs[id - 1]);
-    const readmePath = require(`../content/${id}.md`);
+    const readmePath = require(`../content/blogs/${id}.md`);
     setAddress("https://sch-iitk.github.io/#/blog/" + id);
     fetch(readmePath.default)
       .then((response) => response.text())
@@ -29,7 +29,6 @@ function Blog(props) {
         // var metaData = text.match(/'([^']+)'/)[1];
         // setMeta(JSON.parse(metaData));
       });
-    
   });
   // var metaData = blog.match(/'([^']+)'/)[1];
   // setMeta(JSON.parse(metaData));

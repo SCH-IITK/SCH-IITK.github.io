@@ -1,22 +1,23 @@
-import React, { useState, useEffect } from "react";
-import { MathComponent } from "mathjax-react";
-import content from "../content/2.md";
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+
+import { Col, Row, Container } from "react-bootstrap";
+import announcements from "../content/announcements.json";
+import AnnouncementsCard from "./AnnouncementsCard";
+
 function Announcements() {
-  const [blog, setBlog] = useState("");
-  useEffect(() => {
-    fetch(content)
-      .then((response) => response.text())
-      .then((text) => {
-        setBlog(text);
-        console.log(blog);
-      });
-  });
   return (
-    <div>
-      <MathComponent
-        tex={String.raw`\int_0^1 x^2\ dx`}
-      />
-    </div>
+    <Container>
+      {announcements.announcements.map((announcement) => {
+        return (
+          <AnnouncementsCard
+            title={announcement.title}
+            date={announcement.date}
+            content={announcement.content}
+          />
+        );
+      })}
+    </Container>
   );
 }
 
