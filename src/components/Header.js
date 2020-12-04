@@ -48,15 +48,6 @@ function Header() {
             <Navbar variant="dark" expand="lg" collapseOnSelect fixed="top">
               <Container fluid="md">
                 <Navbar.Brand href="/">SCH</Navbar.Brand>
-                {/* <Navbar.Brand href="/">
-                  <img
-                    src={logo}
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-top"
-                    alt="React Bootstrap logo"
-                  />
-                </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">

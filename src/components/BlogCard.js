@@ -48,7 +48,7 @@ function BlogCard(props) {
                 {props.header}
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                {props.desc.substring(0, 200) + "....."}
+                {props.desc.substring(0, 400) + "....."}
               </Typography>
               <Typography variant="caption" color="textSecondary">
                 Tags - {props.tags}
