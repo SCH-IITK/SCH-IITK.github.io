@@ -24,18 +24,18 @@ import {
 } from "react-router-dom";
 
 function Header() {
-//   var navbarCSS = document.getElementById("#header");
-//   window.onscroll = function() {
-//     if (window.screenTop > 0) {
-//         alert("Working");
-//         navbarCSS.style.boxShadow = "0px 1px 10px #999";
-//         // navbarCSS.classList.addClass("navbarFloat");
-//     } else {
-//         // document.getElementsByClassName("header");
-//         navbarCSS.style.boxShadow = "0px 0px 0px #999";
-//         // navbarCSS.removeClass("navbarFloat");
-//     }
-// };
+  //   var navbarCSS = document.getElementById("#header");
+  //   window.onscroll = function() {
+  //     if (window.screenTop > 0) {
+  //         alert("Working");
+  //         navbarCSS.style.boxShadow = "0px 1px 10px #999";
+  //         // navbarCSS.classList.addClass("navbarFloat");
+  //     } else {
+  //         // document.getElementsByClassName("header");
+  //         navbarCSS.style.boxShadow = "0px 0px 0px #999";
+  //         // navbarCSS.removeClass("navbarFloat");
+  //     }
+  // };
 
   return (
     <HashRouter
@@ -60,7 +60,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/#/">Home</Nav.Link>
                     <Nav.Link href="/#/blog">Blogs</Nav.Link>
                     <Nav.Link href="/#/projects">Projects</Nav.Link>
                     <Nav.Link href="/#/announcements">Announcements</Nav.Link>

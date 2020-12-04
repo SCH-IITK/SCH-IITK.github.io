@@ -24,6 +24,7 @@ const useStyles = makeStyles({
     height: "200px !important",
     width: "100%",
     maxWidth: "250px",
+    flex: "1 0 150px",
   },
 });
 function BlogCard(props) {
