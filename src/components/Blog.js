@@ -26,9 +26,13 @@ function Blog(props) {
       .then((response) => response.text())
       .then((text) => {
         setBlog(text);
+        // var metaData = text.match(/'([^']+)'/)[1];
+        // setMeta(JSON.parse(metaData));
       });
+    
   });
-
+  // var metaData = blog.match(/'([^']+)'/)[1];
+  // setMeta(JSON.parse(metaData));
   return (
     <Container className="mt-5">
       <Row className="justify-content-md-center ">

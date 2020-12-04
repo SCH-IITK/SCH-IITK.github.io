@@ -44,7 +44,7 @@ function Header() {
     >
       <Row>
         <Col sm={12}>
-          <div className="header" id="header">
+          <div className="header">
             <Navbar variant="dark" expand="lg" collapseOnSelect fixed="top">
               <Container fluid="md">
                 <Navbar.Brand href="/">SCH</Navbar.Brand>
