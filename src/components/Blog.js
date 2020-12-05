@@ -39,13 +39,9 @@ function Blog(props) {
           <h1>{blogMeta.Header}</h1>
         </Col>
       </Row>
-      <Row className="justify-content-md-center ">
+      <Row className="justify-content-md-center pb-2">
         <Col xs={10} md={8}>
-          <Typography variant="button" display="block" gutterBottom>
-            {blogMeta.Name}
-          </Typography>
-
-          <Typography variant="button"> {" " + blogMeta.time}</Typography>
+           <p>{blogMeta.Name} {" - " + blogMeta.date}</p>
         </Col>
       </Row>
       <Row className="justify-content-md-center ">
@@ -53,13 +49,13 @@ function Blog(props) {
           <Image src={blogMeta.image} rounded width={"100%"} height="auto" />
         </Col>
       </Row>
-      <Row className="justify-content-md-center p-2">
+      <Row className="justify-content-md-center pt-1 pb-1">
         <Col md={8} className="justify-content-center">
           <Markdown className="blog">{blog}</Markdown>
         </Col>
       </Row>
 
-      <Row className="justify-content-md-center   mt-5">
+      <Row className="justify-content-md-center mt-5">
         <Col xs={10} md={8}>
           <div
             class="fb-like"

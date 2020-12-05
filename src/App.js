@@ -12,7 +12,7 @@ import {
   HashRouter,
 } from "react-router-dom";
 import Home from "./components/Home";
-import AboutUs from "./components/AboutUs";
+import ContactUs from "./components/ContactUs";
 import Blogs from "./components/Blogs";
 import Announcements from "./components/Announcements";
 import Blog from "./components/Blog";
@@ -27,13 +27,11 @@ function App() {
           <Route exact path="/" component={Home} />
 
           <Route exact path="/blog" component={Blogs} />
-
           <Route exact path="/blog/:id" component={Blog} />
           <Route path="/projects" component={Projects}></Route>
           <Route exact path="/talks" />
-
           <Route path="/contact">
-            <AboutUs />
+            <ContactUs/>
           </Route>
 
           <Route path="/announcements">
