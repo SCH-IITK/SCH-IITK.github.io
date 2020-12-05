@@ -19,30 +19,34 @@ function Blogs() {
       });
   });
   return (
-    <Container>
-      <Col md={12} xs={12}>
-        <Row className="pt-2">
-          <div>
-            <Markdown>{body}</Markdown>
-          </div>
+    <div >
+      <Container>
+        <Row className="pt-2 justify-content-xs-center justify-content-md-center">
+          <Col md={8} xs={12} className="justify-content-xs-center justify-content-md-center">
+            <div >
+              <Markdown>{body}</Markdown>
+            </div>
+          </Col>
         </Row>
         <Row className="justify-content-xs-center justify-content-md-center my-3">
-          {blogs.blogs.map((blog) => {
-            return (
-              <BlogCard
-                name={blog.Name}
-                desc={blog.Desciption}
-                date={blog.date}
-                header={blog.Header}
-                imgUrl={blog.image}
-                id={blog.id}
-                tags={blog.tags}
-              />
-            );
-          })}
+          <Col md={12} xs={12} className="justify-content-xs-center justify-content-md-center">
+            {blogs.blogs.map((blog) => {
+              return (
+                <BlogCard
+                  name={blog.Name}
+                  desc={blog.Desciption}
+                  date={blog.date}
+                  header={blog.Header}
+                  imgUrl={blog.image}
+                  id={blog.id}
+                  tags={blog.tags}
+                />
+              );
+            })}
+          </Col>
         </Row>
-      </Col>
-    </Container>
+      </Container>
+    </div>
   );
 }
 

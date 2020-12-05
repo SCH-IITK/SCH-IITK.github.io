@@ -31,26 +31,24 @@ function BlogCard(props) {
   const classes = useStyles();
   return (
     <Row className="pt-2 pb-2">
-      <Link href={"#/blog/" + props.id} style={{ textDecoration: "none" }}>
-        <Card className={classes.root} href={"#/blog/" + props.id}>
-          <CardActionArea className={classes.main}>
-            <CardMedia className={classes.media} image= {props.imgUrl} />
-            <CardContent href={"#/blog/" + props.id}>
+      <Link href={"#/projects/" + props.id} style={{ textDecoration: "none" }}>
+        <Card className={classes.root} href={"#/projects/" + props.id}>
+          <CardActionArea className={classes.main}> 
+            <CardMedia className={classes.media} image="https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png" />
+            <CardContent href={"#/projects/" + props.id}>
               <Typography variant="subtitle2" color="textSecondary">
-                {props.name}
+                {props.mentor}
               </Typography>
               <Typography variant="caption" color="textSecondary">
-                {props.date}
+                {props.start} - {props.end}
               </Typography>
               <br />
+
               <Typography gutterBottom variant="h5" component="h2">
-                {props.header}
+                {props.title}
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                {props.desc.substring(0, 200) + "..."}
-              </Typography>
-              <Typography variant="caption" color="textSecondary">
-                Tags - {props.tags}
+                {props.desc.substring(0, 400) + "..."}
               </Typography>
             </CardContent>
           </CardActionArea>

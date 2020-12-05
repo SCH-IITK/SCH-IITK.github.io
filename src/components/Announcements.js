@@ -8,6 +8,8 @@ import AnnouncementsCard from "./AnnouncementsCard";
 function Announcements() {
   return (
     <Container>
+      <Row className="justify-content-xs-center justify-content-md-center my-3">
+        <Col md={12} xs={12} className="justify-content-xs-center justify-content-md-center">
       {announcements.announcements.map((announcement) => {
         return (
           <AnnouncementsCard
@@ -17,6 +19,8 @@ function Announcements() {
           />
         );
       })}
+      </Col>
+      </Row>
     </Container>
   );
 }

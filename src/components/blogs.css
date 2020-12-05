@@ -1,3 +1,8 @@
 .blogs {
   align-items: center;
 }
+
+.blogCover{
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_1035462384_395932.jpg") !important;
+  background-size: cover !important;
+}

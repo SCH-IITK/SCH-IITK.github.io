@@ -57,18 +57,19 @@ function Home() {
                   })}
                 </Row>
               </Container>
+            </div>
+            {/* <div>
               <hr></hr>
               <h2>Featured Talks</h2>
-            </div>
+            </div> */}
           </Col>
           <Col xs={12} md={4}>
             <Card bg="white" className="mt-2 sidebar">
               <Card.Body>
                 <Card.Title>
-                  <h5>About Us</h5>
+                  <h5>Enagage with us</h5>
                 </Card.Title>
-                <Card.Text>About us contentgoes here</Card.Text>
-                <Card.Link href="#">Contact us</Card.Link>
+                <Card.Text>If you would like to engage with us, please follow us on Facebook and join our Discord channel for the latest updates. We also have a messanger group, and if you would like to be added please DM the page.</Card.Text><Card.Text>If you would like to contribute please drop a message to any one of the secretaries or the leaders and we will get back to you ASAP. We would love to read and share your articles, videos and would love to help you host your talk!</Card.Text>
               </Card.Body>
             </Card>
             <Card bg="white" className="mt-2 sidebar">

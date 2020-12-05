@@ -1,8 +1,8 @@
 import React from "react";
-import "./about-us.css";
+import "./contactUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, Card, Container } from "react-bootstrap";
-function AboutUs() {
+function ContactUs() {
   return (
     <Container fluid className="people">
       <div className="people">
@@ -151,4 +151,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default ContactUs;
