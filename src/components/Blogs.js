@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import blogs from "../content/blogs.json";
 import BlogCard from "./BlogCard";
-import Markdown from "./Markdown";
 
+import "./blogs.css";
 function Blogs() {
   localStorage.setItem("reload", "Reload");
 
@@ -19,17 +19,17 @@ function Blogs() {
       });
   });
   return (
-    <div >
+    <div>
+      <div className="background-image-blog">
+        <h1>Blogs</h1>
+      </div>
       <Container>
-        <Row className="pt-2 justify-content-xs-center justify-content-md-center">
-          <Col md={8} xs={12} className="justify-content-xs-center justify-content-md-center">
-            <div >
-              <Markdown>{body}</Markdown>
-            </div>
-          </Col>
-        </Row>
         <Row className="justify-content-xs-center justify-content-md-center my-3">
-          <Col md={12} xs={12} className="justify-content-xs-center justify-content-md-center">
+          <Col
+            md={12}
+            xs={12}
+            className="justify-content-xs-center justify-content-md-center"
+          >
             {blogs.blogs.map((blog) => {
               return (
                 <BlogCard

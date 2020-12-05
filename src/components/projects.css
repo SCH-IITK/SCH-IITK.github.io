@@ -1,13 +1,11 @@
-.background-image-blog {
+.background-image-projects {
   height: 30vw;
-  background-image: url("../content/blogs.jpg");
+  background-image: url("../content/projects.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: lighten;
-
   padding-top: 9.5%;
 }
-.background-image-blog h1 {
+.background-image-projects h1 {
   font-size: 7vw;
   color: aliceblue;
   text-align: center;
