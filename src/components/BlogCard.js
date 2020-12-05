@@ -34,7 +34,7 @@ function BlogCard(props) {
       <Link href={"#/blog/" + props.id} style={{ textDecoration: "none" }}>
         <Card className={classes.root} href={"#/blog/" + props.id}>
           <CardActionArea className={classes.main}>
-            <CardMedia className={classes.media} image= {props.imgUrl} />
+            <CardMedia className={classes.media} image={props.imgUrl} />
             <CardContent href={"#/blog/" + props.id}>
               <Typography variant="subtitle2" color="textSecondary">
                 {props.name}

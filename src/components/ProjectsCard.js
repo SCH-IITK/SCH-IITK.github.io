@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "@material-ui/core";
-
+import image from "../content/blogs.jpg";
 const useStyles = makeStyles({
   root: {
     display: "flex",
@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     flexDirection: "row-reverse",
   },
   media: {
-    height: "200px !important",
+    height: 0,
     width: "100%",
     maxWidth: "250px",
     flex: "1 0 150px",
@@ -33,8 +33,8 @@ function BlogCard(props) {
     <Row className="pt-2 pb-2">
       <Link href={"#/projects/" + props.id} style={{ textDecoration: "none" }}>
         <Card className={classes.root} href={"#/projects/" + props.id}>
-          <CardActionArea className={classes.main}> 
-            <CardMedia className={classes.media} image="https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png" />
+          <CardActionArea className={classes.main}>
+            <CardMedia className={classes.media} image={image} />
             <CardContent href={"#/projects/" + props.id}>
               <Typography variant="subtitle2" color="textSecondary">
                 {props.mentor}

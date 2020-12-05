@@ -16,6 +16,7 @@ import ContactUs from "./components/ContactUs";
 import Blogs from "./components/Blogs";
 import Announcements from "./components/Announcements";
 import Blog from "./components/Blog";
+import Talks from "./components/Talks";
 
 function App() {
   return (
@@ -29,9 +30,9 @@ function App() {
           <Route exact path="/blog" component={Blogs} />
           <Route exact path="/blog/:id" component={Blog} />
           <Route path="/projects" component={Projects}></Route>
-          <Route exact path="/talks" />
+          <Route exact path="/talks" component={Talks} />
           <Route path="/contact">
-            <ContactUs/>
+            <ContactUs />
           </Route>
 
           <Route path="/announcements">
