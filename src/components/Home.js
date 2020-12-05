@@ -59,6 +59,23 @@ function Home() {
               </Container>
               <hr></hr>
               <h2>Featured Talks</h2>
+              <Container>
+                <Row className="justify-content-xs-center justify-content-md-center my-3">
+                  {blogs.feat.map((blog) => {
+                    return (
+                      <BlogCard
+                        name={blog.Name}
+                        desc={blog.Desciption}
+                        date={blog.date}
+                        header={blog.Header}
+                        imgUrl={blog.image}
+                        id={blog.id}
+                        tags={blog.tags}
+                      />
+                    );
+                  })}
+                </Row>
+              </Container>
             </div>
           </Col>
           <Col xs={12} md={4}>
