@@ -4,7 +4,7 @@ function Talks() {
   return (
     <div>
       <div className="background-image-talks">
-        <h1>Talks</h1>
+        <h1>Comming Soon ..</h1>
       </div>
     </div>
   );

@@ -2,8 +2,15 @@
   background-color: #000e1f;
   text-align: center;
   justify-content: center;
-  width:100%;
-  margin:0;
+  width: 100%;
+  margin: 0;
+}
+.background-image-home {
+  height: 30vw;
+  background-image: url("../content/SCH_professional.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9.5%;
 }
 .intro-image {
   height: 100%;
@@ -30,5 +37,5 @@
   background-color: white;
 }
 .aboutUsCard {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }

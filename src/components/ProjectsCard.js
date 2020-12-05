@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     flexDirection: "row-reverse",
   },
   media: {
-    height: 0,
+    height: "200px !important",
     width: "100%",
     maxWidth: "250px",
     flex: "1 0 150px",

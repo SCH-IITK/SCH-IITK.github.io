@@ -17,8 +17,6 @@ function Projects() {
             className="justify-content-xs-center justify-content-md-center"
           >
             {project.projects.map((project) => {
-              var image = require("../content/blogs.jpg");
-              fetch(image).then((img) => (image = img));
               return (
                 <ProjectsCards
                   mentor={project.mentor}
@@ -27,7 +25,6 @@ function Projects() {
                   title={project.title}
                   id={project.id}
                   end={project.end}
-                  image={image}
                 />
               );
             })}

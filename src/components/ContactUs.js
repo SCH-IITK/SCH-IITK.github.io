@@ -1,7 +1,7 @@
 import React from "react";
 import "./contactUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import contacts from "../content/contactus.json";
+import contacts from "../content/contactUs/contactUs.json";
 import { Row, Col, Card, Container } from "react-bootstrap";
 
 function ContactUs() {
@@ -23,7 +23,7 @@ function ContactUs() {
                   >
                     <Card.Img
                       variant="top"
-                      src="https://static.wixstatic.com/media/00dcd9d1bed24e07b074ced045369915.jpg/v1/fill/w_425,h_400,fp_0.47_0.36,q_80,usm_0.66_1.00_0.01/00dcd9d1bed24e07b074ced045369915.webp"
+                      src="https://github.com/SCH-IITK/SCH-IITK.github.io/blob/web-dev/src/content/contactUs.png?raw=true"
                     />
                     <Card.Body>
                       <Card.Title>
@@ -95,149 +95,7 @@ function ContactUs() {
           </Row>
         </Container>
       </div>
-
-      <Container fluid className="people">
-        <div className="people">
-          <Row className=" p-3 justify-content-center">
-            <h3>LEADERS</h3>
-          </Row>
-          <Row className="justify-content-md-center  justify-content-xs-center p-2  ">
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }} text="black" className="card">
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/00dcd9d1bed24e07b074ced045369915.jpg/v1/fill/w_425,h_400,fp_0.47_0.36,q_80,usm_0.66_1.00_0.01/00dcd9d1bed24e07b074ced045369915.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Aayush Parmar</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/245c33c1d1294a78a84cbe2084bbef58.jpg/v1/fill/w_425,h_400,fp_0.50_0.38,q_80,usm_0.66_1.00_0.01/245c33c1d1294a78a84cbe2084bbef58.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Gurmeet Singh</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row className=" p-3 justify-content-center ">
-            <h3>SECRETARIES</h3>
-          </Row>
-          <Row className="justify-content-md-center p-2 ">
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }} text="black" className="card">
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/00dcd9d1bed24e07b074ced045369915.jpg/v1/fill/w_425,h_400,fp_0.47_0.36,q_80,usm_0.66_1.00_0.01/00dcd9d1bed24e07b074ced045369915.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Debaditya Bhattacharya</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/245c33c1d1294a78a84cbe2084bbef58.jpg/v1/fill/w_425,h_400,fp_0.50_0.38,q_80,usm_0.66_1.00_0.01/245c33c1d1294a78a84cbe2084bbef58.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Mohammad Saad</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row className="justify-content-md-center p-2 ">
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }} text="black" className="card">
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/00dcd9d1bed24e07b074ced045369915.jpg/v1/fill/w_425,h_400,fp_0.47_0.36,q_80,usm_0.66_1.00_0.01/00dcd9d1bed24e07b074ced045369915.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/245c33c1d1294a78a84cbe2084bbef58.jpg/v1/fill/w_425,h_400,fp_0.50_0.38,q_80,usm_0.66_1.00_0.01/245c33c1d1294a78a84cbe2084bbef58.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row className=" p-3 justify-content-center">
-            <h3>WEB DEVELOPMENT</h3>
-          </Row>
-          <Row className="justify-content-md-center p-2 ">
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }} text="black" className="card">
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/00dcd9d1bed24e07b074ced045369915.jpg/v1/fill/w_425,h_400,fp_0.47_0.36,q_80,usm_0.66_1.00_0.01/00dcd9d1bed24e07b074ced045369915.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Abhinav Tiwari</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} className="my-4">
-              <Card style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="https://static.wixstatic.com/media/245c33c1d1294a78a84cbe2084bbef58.jpg/v1/fill/w_425,h_400,fp_0.50_0.38,q_80,usm_0.66_1.00_0.01/245c33c1d1294a78a84cbe2084bbef58.webp"
-                />
-                <Card.Body>
-                  <Card.Title>Debaditya Bhattacharya</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </div>
-      </Container>
-    </div>
+    </Container>
   );
 }
 

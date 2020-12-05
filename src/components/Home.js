@@ -27,11 +27,7 @@ function Home() {
 
   return (
     <div>
-      <Row className="intro">
-        <Col md={4} sm={6} xs={12}>
-          <img src={intro} className="intro-image" />
-        </Col>
-      </Row>
+      <div className="background-image-home">.</div>
       <Container className="pb-2 pt-2">
         <Alert variant="danger">Website is under construction!</Alert>
         <Row>
