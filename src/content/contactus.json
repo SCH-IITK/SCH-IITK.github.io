@@ -1,10 +1,19 @@
 {"leaders":[
-    {"name":"Gurmeet Singh","interests":"Everything","fb":"","github":""}        
+    {"name":"Gurmeet Singh","interests":"Neuroscience, Physics, Computer Security, Biology, Psychology","fb":"","github":""},
+    {"name":"Aayush Parmar","interests":"Everything","fb":"","github":""}  
 ],
 "secys":[
-    {"name":"Gurmeet Singh","interests":"Everything","fb":"","github":""}
+    {"name":"Abhinav Tiwari","interests":"Everything","fb":"","github":""},
+    {"name":"Debaditya Bhattacharya","interests":"Neuroscience, Physics, Computer Security, Biology, Psychology","fb":"","github":""},
+    {"name":"Abhinav Tiwari","interests":"Everything","fb":"","github":""},
+    {"name":"Debaditya Bhattacharya","interests":"Everything","fb":"","github":""},
+    {"name":"Abhinav Tiwari","interests":"Everything","fb":"","github":""},
+    {"name":"Debaditya Bhattacharya","interests":"Everything","fb":"","github":""},
+    {"name":"Debaditya Bhattacharya","interests":"Everything","fb":"","github":""},
+    {"name":"Abhinav Tiwari","interests":"Everything","fb":"","github":""},
+    {"name":"Debaditya Bhattacharya","interests":"Everything","fb":"","github":""}
     ],
-"web-dev":[
+"webdev":[
     {"name":"Abhinav Tiwari","interests":"Everything","fb":"","github":""},
     {"name":"Debaditya Bhattacharya","interests":"Everything","fb":"","github":""}
 ]}
