@@ -19,7 +19,8 @@ function Blog(props) {
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    setMeta(blogs.blogs[id - 1]);
+    setMeta(blogs.blogs.find((blog) => blog.id == id));
+
     const readmePath = require(`../content/blogs/${id}.md`);
     setAddress("https://sch-iitk.github.io/#/blog/" + id);
     fetch(readmePath.default)
@@ -41,7 +42,9 @@ function Blog(props) {
       </Row>
       <Row className="justify-content-md-center pb-2">
         <Col xs={10} md={8}>
-           <p>{blogMeta.Name} {" - " + blogMeta.date}</p>
+          <p>
+            {blogMeta.Name} {" - " + blogMeta.date}
+          </p>
         </Col>
       </Row>
       <Row className="justify-content-md-center ">

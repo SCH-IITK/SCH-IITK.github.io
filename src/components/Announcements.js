@@ -16,7 +16,7 @@ function Announcements() {
         <Row className="justify-content-xs-center justify-content-md-center my-3">
           <Col
             md={12}
-            xs={10}
+            xs={12}
             className="justify-content-xs-center justify-content-md-center"
           >
             {announcements.announcements.map((announcement) => {
