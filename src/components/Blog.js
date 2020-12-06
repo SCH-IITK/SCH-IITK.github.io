@@ -36,12 +36,15 @@ function Blog(props) {
     <Container className="mt-5">
       <Row className="justify-content-md-center ">
         <Col xs={12} md={8}>
-          <h1>{blogMeta.Header}</h1>
+          <h1 style={{fontSize:"5vh"}}>{blogMeta.Header}</h1>
         </Col>
       </Row>
       <Row className="justify-content-md-center pb-2">
         <Col xs={10} md={8}>
-           <p>{blogMeta.Name} {" - " + blogMeta.date}</p>
+          <div style={{fontWeight:"bold"},{fontSize:"2vh"}}>
+          <p style={{float:"left"}}>{blogMeta.Name}</p> <p style={{float:"right"}}>{blogMeta.date}</p>
+          </div>
+          
         </Col>
       </Row>
       <Row className="justify-content-md-center ">
