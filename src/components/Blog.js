@@ -1,10 +1,10 @@
 import Markdown from "./Markdown";
-
 import React, { useState, useEffect } from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import { useParams } from "react-router";
 import blogs from "../content/blogs.json";
 import Typography from "@material-ui/core/Typography";
+import "./blog.css";
 
 function Blog(props) {
   if (localStorage.getItem("reload") == "Reload") {
@@ -19,7 +19,7 @@ function Blog(props) {
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    setMeta(blogs.blogs[id - 1]);
+    setMeta(blogs.blogs[(blogs.blogs.length)-id]);
     const readmePath = require(`../content/blogs/${id}.md`);
     setAddress("https://sch-iitk.github.io/#/blog/" + id);
     fetch(readmePath.default)
@@ -44,7 +44,6 @@ function Blog(props) {
           <div style={{fontWeight:"bold"},{fontSize:"2vh"}}>
           <p style={{float:"left"}}>{blogMeta.Name}</p> <p style={{float:"right"}}>{blogMeta.date}</p>
           </div>
-          
         </Col>
       </Row>
       <Row className="justify-content-md-center ">

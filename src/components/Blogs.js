@@ -3,21 +3,9 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import blogs from "../content/blogs.json";
 import BlogCard from "./BlogCard";
-
 import "./blogs.css";
 function Blogs() {
   localStorage.setItem("reload", "Reload");
-
-  const [body, setBody] = useState("");
-
-  useEffect(() => {
-    const readmePathBody = require(`../content/blogs.md`);
-    fetch(readmePathBody.default)
-      .then((response) => response.text())
-      .then((text) => {
-        setBody(text);
-      });
-  });
   return (
     <div>
       <div className="background-image-blog">

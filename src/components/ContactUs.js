@@ -1,7 +1,7 @@
 import React from "react";
 import "./contactUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import contacts from "../content/contactUs/contactUs.json";
+import contacts from "../content/contactUs.json";
 import { Row, Col, Card, Container } from "react-bootstrap";
 
 function ContactUs() {
