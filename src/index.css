@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora&display=swap');
 
 body, p {
-  margin-top: 1em;
   font-family: 'Lora', serif;
-  font-size: calc(0+ 1vmin);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: justify;
