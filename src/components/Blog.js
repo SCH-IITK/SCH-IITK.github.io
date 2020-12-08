@@ -20,7 +20,6 @@ function Blog(props) {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     setMeta(blogs.blogs.find((blog) => blog.id == id));
-
     const readmePath = require(`../content/blogs/${id}.md`);
     setAddress("https://sch-iitk.github.io/#/blog/" + id);
     fetch(readmePath.default)
