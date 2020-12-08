@@ -1,11 +1,11 @@
 {"leaders":[
     {"name":"Gurmeet Singh","imgurl":"./contactUs/Gurmeet.jpg","interests":"Everything","fb":"https://www.facebook.com/gurmeet0108","github":"https://github.com/Gurmeet-Singh"},
-    {"name":"Aayush Parmar","imgurl":"./contactUs/Aayush.jpg","interests":"","fb":"https://www.facebook.com/aayush.parmar.319","github":""}  
+    {"name":"Aayush Parmar","imgurl":"./contactUs/Aayush.jpg","interests":"Astrophysics, Cosmology, Computational Physics and Classical Mechanics","fb":"https://www.facebook.com/aayush.parmar.319","github":""}  
 ],
 "secys":[
     {"name":"Debaditya Bhattacharya","imgurl":"./contactUs/Debaditya.png","interests":"Neuroscience, Physics, Computing, Biology, Psychology and everything in between.","fb":"https://www.facebook.com/debaditya.bhattacharya99/","github":"https://github.com/Debu922"},
-    {"name":"Mohammad Saad","imgurl":"./contactUs/Saad.jpg","interests":"Physics(almost all), analysis, topology, fluid mechanics, history of physics / mathematics","fb":"https://www.facebook.com/saad.mohammad.52493","github":""},
-    {"name":"Ajay Kumar","imgurl":"./contactUs/Ajay.png","interests":"Quantum mechanics, Classical mechanics, Astrophysics related to stars and black holes","fb":"https://www.facebook.com/profile.php?id=100039849373907","github":""},
+    {"name":"Mohammad Saad","imgurl":"./contactUs/Saad.jpg","interests":"Physics (almost all), Analysis, Topology, Fluid Mechanics, History of Physics / Mathematics","fb":"https://www.facebook.com/saad.mohammad.52493","github":""},
+    {"name":"Ajay Kumar","imgurl":"./contactUs/Ajay.png","interests":"Quantum Mechanics, Classical Mechanics, Astrophysics related to stars and black holes","fb":"https://www.facebook.com/profile.php?id=100039849373907","github":""},
     {"name":"Priyanshu Bhushan","imgurl":"./contactUs/Priyanshu.png","interests":"Psychology, Quantum Mechanics, Classical Mechanics, Philosophy","fb":"https://www.facebook.com/priyanshu.bhusan.31","github":""}
     ],
 "webdev":[

@@ -10,16 +10,12 @@ import {
   Col,
   Container,
 } from "react-bootstrap";
-import logo from "./SCH_professional_logo.jpg";
 import { createBrowserHistory } from "history";
 
 import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
   HashRouter,
 } from "react-router-dom";
 

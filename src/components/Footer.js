@@ -41,7 +41,7 @@ function Footer() {
             <Row className="justify-content-center justify-content-md-center pb-2">
               <Col>
                 <Typography variant="outline" gutterBottom>
-                  Hand crafted at IITK by <strong>Abhinav Tiwari </strong>and
+                  Handcrafted at IITK by <strong>Abhinav Tiwari </strong>and
                   <strong> Debaditya Bhattacharya</strong>
                 </Typography>
               </Col>

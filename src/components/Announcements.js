@@ -1,6 +1,4 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-
 import { Col, Row, Container } from "react-bootstrap";
 import announcements from "../content/announcements.json";
 import AnnouncementsCard from "./AnnouncementsCard";
@@ -8,17 +6,18 @@ import AnnouncementsCard from "./AnnouncementsCard";
 function Announcements() {
   return (
     <div>
+
+      {/* Cover */}
       <div className="background-image-announcements">
         <h1>Announcements</h1>
       </div>
 
+      {/* Content */}
       <Container>
         <Row className="justify-content-xs-center justify-content-md-center my-3">
-          <Col
-            md={12}
-            xs={10}
-            className="justify-content-xs-center justify-content-md-center"
-          >
+          <Col md={12} xs={10} className="justify-content-xs-center justify-content-md-center">
+
+            {/* Loop that iterates the announcements.json and produces  */}
             {announcements.announcements.map((announcement) => {
               return (
                 <AnnouncementsCard
@@ -28,6 +27,7 @@ function Announcements() {
                 />
               );
             })}
+
           </Col>
         </Row>
       </Container>

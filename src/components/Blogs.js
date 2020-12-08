@@ -1,13 +1,15 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import blogs from "../content/blogs.json";
 import BlogCard from "./BlogCard";
 import "./blogs.css";
+
 function Blogs() {
   localStorage.setItem("reload", "Reload");
   return (
+
     <div>
+      {/* Cover */}
       <div className="background-image-blog">
         <h1>Blogs</h1>
       </div>
