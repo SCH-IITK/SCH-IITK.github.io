@@ -6,11 +6,12 @@ import { Row, Col, Card, Container } from "react-bootstrap";
 
 function ContactUs() {
   return (
-    <Container fluid className="people">
+    <div>
+      <div className="background-image-contact">
+        <h1>Meet The Team </h1>
+      </div>
+
       <div className="people">
-        <Row className=" p-3 justify-content-center">
-          <h1>The Team</h1>
-        </Row>
         <Container>
           <Row className="justify-content-md-center  justify-content-xs-center p-1 my-3">
             {contacts.leaders.map((person) => {
@@ -21,20 +22,21 @@ function ContactUs() {
                     text="black"
                     className="card my-2"
                   >
-                    <Card.Img
-                      variant="top"
-                      src={person.imgurl}
-                    />
+                    <Card.Img variant="top" src={person.imgurl} />
                     <Card.Body>
                       <Card.Title>
-                        <center style={{fontSize:"0.8em"}}>Leader</center>
+                        <center style={{ fontSize: "0.8em" }}>Leader</center>
                       </Card.Title>
                       <Card.Text>
-                        <center style={{fontSize:"1.2em"}}>{person.name}</center>
-                        <hr/>
-                        <h1 style={{fontSize:"1em"}}>Interests:</h1>
-                        <span style={{fontSize:"0.9em"}}>{person.interests}</span>
-                        <hr/>
+                        <center style={{ fontSize: "1.2em" }}>
+                          {person.name}
+                        </center>
+                        <hr />
+                        <h1 style={{ fontSize: "1em" }}>Interests:</h1>
+                        <span style={{ fontSize: "0.9em" }}>
+                          {person.interests}
+                        </span>
+                        <hr />
                         <div>
                           {/* Put the git-hub / facebook / linked-in / messenger links here*/}
                         </div>
@@ -54,20 +56,21 @@ function ContactUs() {
                     text="black"
                     className="card my-2"
                   >
-                    <Card.Img
-                      variant="top"
-                      src={person.imgurl}
-                    />
+                    <Card.Img variant="top" src={person.imgurl} />
                     <Card.Body>
                       <Card.Title>
-                        <center style={{fontSize:"0.8em"}}>Secretary</center>
+                        <center style={{ fontSize: "0.8em" }}>Secretary</center>
                       </Card.Title>
                       <Card.Text>
-                        <center style={{fontSize:"1.2em"}}>{person.name}</center>
+                        <center style={{ fontSize: "1.2em" }}>
+                          {person.name}
+                        </center>
                         <hr></hr>
-                        <h1 style={{fontSize:"1em"}}>Interests:</h1>
-                        <span style={{fontSize:"0.9em"}}>{person.interests}</span>
-                        <hr/>
+                        <h1 style={{ fontSize: "1em" }}>Interests:</h1>
+                        <span style={{ fontSize: "0.9em" }}>
+                          {person.interests}
+                        </span>
+                        <hr />
                         <div>
                           {/* Put the git-hub / facebook / linked-in / messenger links here*/}
                         </div>
@@ -87,20 +90,23 @@ function ContactUs() {
                     text="black"
                     className="card my-2"
                   >
-                    <Card.Img
-                      variant="top"
-                      src={person.imgurl}
-                    />
+                    <Card.Img variant="top" src={person.imgurl} />
                     <Card.Body>
                       <Card.Title>
-                        <center style={{fontSize:"0.8em"}}>Web Development Team</center>
+                        <center style={{ fontSize: "0.8em" }}>
+                          Web Development Team
+                        </center>
                       </Card.Title>
                       <Card.Text>
-                        <center style={{fontSize:"1.2em"}}>{person.name}</center>
+                        <center style={{ fontSize: "1.2em" }}>
+                          {person.name}
+                        </center>
                         <hr></hr>
-                        <h1 style={{fontSize:"1em"}}>Interests:</h1>
-                        <span style={{fontSize:"0.9em"}}>{person.interests}</span>
-                        <hr/>
+                        <h1 style={{ fontSize: "1em" }}>Interests:</h1>
+                        <span style={{ fontSize: "0.9em" }}>
+                          {person.interests}
+                        </span>
+                        <hr />
                         <div>
                           {/* Put the git-hub / facebook / linked-in / messenger links here*/}
                         </div>
@@ -113,7 +119,7 @@ function ContactUs() {
           </Row>
         </Container>
       </div>
-    </Container>
+    </div>
   );
 }
 

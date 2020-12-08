@@ -36,6 +36,9 @@ function BlogCard(props) {
           <CardActionArea className={classes.main}>
             <CardMedia className={classes.media} image={props.imgUrl} />
             <CardContent href={"#/blog/" + props.id}>
+              <Typography gutterBottom variant="h5" component="h2">
+                {props.header}
+              </Typography>
               <Typography variant="subtitle2" color="textSecondary">
                 {props.name}
               </Typography>
@@ -43,9 +46,7 @@ function BlogCard(props) {
                 {props.date}
               </Typography>
               <br />
-              <Typography gutterBottom variant="h5" component="h2">
-                {props.header}
-              </Typography>
+
               <Typography variant="body2" color="textSecondary" component="p">
                 {props.desc.substring(0, 200) + "..."}
               </Typography>

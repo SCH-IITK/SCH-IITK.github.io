@@ -4,8 +4,10 @@
 }
 .card {
   background-color: #ffffff;
+
   margin: auto;
 }
+
 .background-image-contact {
   height: 30vw;
   background-image: url("../content/pictures/contactUs.png");
