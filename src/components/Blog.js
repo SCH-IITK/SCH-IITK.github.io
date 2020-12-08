@@ -1,10 +1,10 @@
 import Markdown from "./Markdown";
-
 import React, { useState, useEffect } from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import { useParams } from "react-router";
 import blogs from "../content/blogs.json";
 import Typography from "@material-ui/core/Typography";
+import "./blog.css";
 
 function Blog(props) {
   if (localStorage.getItem("reload") == "Reload") {
