@@ -5,8 +5,9 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { Col, Row, Container } from "react-bootstrap";
-import announcements from "../content/announcements.json";
 import "./announcements.css";
+
+// Styling for the card
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
@@ -27,7 +28,10 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
 });
+
+
 function AnnouncementsCard(props) {
+  
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
 
