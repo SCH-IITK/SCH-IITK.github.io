@@ -3,7 +3,7 @@ import "./contactUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import contacts from "../content/contactUs.json";
 import { Row, Col, Card, Container } from "react-bootstrap";
-
+import { AiFillFacebook, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 function ContactUs() {
   return (
     <div>
@@ -32,13 +32,35 @@ function ContactUs() {
                           {person.name}
                         </center>
                         <hr />
-                        <h1 style={{ fontSize: "1em" }}>Interests:</h1>
-                        <span style={{ fontSize: "0.9em" }}>
-                          {person.interests}
-                        </span>
+                        <div className="interests">
+                          <h1 style={{ fontSize: "1em" }}>Interests:</h1>
+                          <span style={{ fontSize: "0.9em" }}>
+                            {person.interests}
+                          </span>
+                        </div>
                         <hr />
                         <div>
-                          {/* Put the git-hub / facebook / linked-in / messenger links here*/}
+                          <a href={person.fb} target="_blank">
+                            <AiFillFacebook
+                              size={40}
+                              color="#0B82ED"
+                              className="mx-3"
+                            />
+                          </a>
+                          <a href={person.linkdein} target="_blank">
+                            <AiFillLinkedin
+                              size={40}
+                              color="#0A66C2"
+                              className="mx-4"
+                            />
+                          </a>
+                          <a href={person.mail} target="_blank">
+                            <AiOutlineMail
+                              size={40}
+                              color="#FE2C39"
+                              className="mx-3"
+                            />
+                          </a>
                         </div>
                       </Card.Text>
                     </Card.Body>
@@ -66,13 +88,35 @@ function ContactUs() {
                           {person.name}
                         </center>
                         <hr></hr>
-                        <h1 style={{ fontSize: "1em" }}>Interests:</h1>
-                        <span style={{ fontSize: "0.9em" }}>
-                          {person.interests}
-                        </span>
+                        <div className="interests">
+                          <h1 style={{ fontSize: "1em" }}>Interests:</h1>
+                          <span style={{ fontSize: "0.9em" }}>
+                            {person.interests}
+                          </span>
+                        </div>
                         <hr />
                         <div>
-                          {/* Put the git-hub / facebook / linked-in / messenger links here*/}
+                          <a href={person.fb} target="_blank">
+                            <AiFillFacebook
+                              size={40}
+                              color="#0B82ED"
+                              className="mx-3"
+                            />
+                          </a>
+                          <a href={person.linkdein} target="_blank">
+                            <AiFillLinkedin
+                              size={40}
+                              color="#0A66C2"
+                              className="mx-3"
+                            />
+                          </a>
+                          <a href={person.mail} target="_blank">
+                            <AiOutlineMail
+                              size={40}
+                              color="#FE2C39"
+                              className="mx-3"
+                            />
+                          </a>
                         </div>
                       </Card.Text>
                     </Card.Body>
@@ -102,13 +146,39 @@ function ContactUs() {
                           {person.name}
                         </center>
                         <hr></hr>
-                        <h1 style={{ fontSize: "1em" }}>Interests:</h1>
-                        <span style={{ fontSize: "0.9em" }}>
-                          {person.interests}
-                        </span>
+                        <div className="interests">
+                          <h1 style={{ fontSize: "1em" }}>Interests:</h1>
+                          <span
+                            style={{
+                              fontSize: "0.9em",
+                            }}
+                          >
+                            {person.interests}
+                          </span>
+                        </div>
                         <hr />
                         <div>
-                          {/* Put the git-hub / facebook / linked-in / messenger links here*/}
+                          <a href={person.fb} target="_blank">
+                            <AiFillFacebook
+                              size={40}
+                              color="#0B82ED"
+                              className="mx-3"
+                            />
+                          </a>
+                          <a href={person.linkdein} target="_blank">
+                            <AiFillLinkedin
+                              size={40}
+                              color="#0A66C2"
+                              className="mx-4"
+                            />
+                          </a>
+                          <a href={person.mail} target="_blank">
+                            <AiOutlineMail
+                              size={40}
+                              color="#FE2C39"
+                              className="mx-3"
+                            />
+                          </a>
                         </div>
                       </Card.Text>
                     </Card.Body>
