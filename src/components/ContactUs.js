@@ -47,7 +47,7 @@ function ContactUs() {
                               className="mx-3"
                             />
                           </a>
-                          <a href={person.linkdein} target="_blank">
+                          <a href={person.linkedin} target="_blank">
                             <AiFillLinkedin
                               size={40}
                               color="#0A66C2"
@@ -103,7 +103,7 @@ function ContactUs() {
                               className="mx-3"
                             />
                           </a>
-                          <a href={person.linkdein} target="_blank">
+                          <a href={person.linkedin} target="_blank">
                             <AiFillLinkedin
                               size={40}
                               color="#0A66C2"
@@ -165,14 +165,14 @@ function ContactUs() {
                               className="mx-3"
                             />
                           </a>
-                          <a href={person.linkdein} target="_blank">
+                          <a href={person.linkedin} target="_blank">
                             <AiFillLinkedin
                               size={40}
                               color="#0A66C2"
                               className="mx-4"
                             />
                           </a>
-                          <a href={person.mail} target="_blank">
+                          <a href={`mailto:${person.mail}`} target="_blank">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"

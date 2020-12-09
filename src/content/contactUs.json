@@ -9,7 +9,7 @@
     {"name":"Priyanshu Bhushan","imgurl":"./contactUs/Priyanshu.png","interests":"Psychology, Quantum Mechanics, Classical Mechanics, Philosophy","fb":"https://www.facebook.com/priyanshu.bhusan.31","github":""}
     ],
 "webdev":[
-    {"name":"Abhinav Tiwari","imgurl":"./contactUs/Abhinav.jpg","interests":"Neuroscience, bioinformatics, psychology, Deep learning, Quantum Mechanics","fb":"https://www.facebook.com/abhinav.tiwari.52090","github":"https://github.com/matrix101A"},
-    {"name":"Debaditya Bhattacharya","imgurl":"./contactUs/Debaditya.png","interests":"Neuroscience, Physics, Computing, Biology, Psychology and everything in between.","fb":"https://www.facebook.com/debaditya.bhattacharya99/","github":"https://github.com/Debu922"}
+    {"name":"Abhinav Tiwari","imgurl":"./contactUs/Abhinav.jpg","interests":"Neuroscience, bioinformatics, psychology, Deep learning, Quantum Mechanics","fb":"https://www.facebook.com/abhinav.tiwari.52090","github":"https://github.com/matrix101A","mail":"abtiwari@iitk.ac.in","linkedin":"https://www.linkedin.com/in/abhinav-tiwari-1b231416b/"},
+    {"name":"Debaditya Bhattacharya","imgurl":"./contactUs/Debaditya.png","interests":"Neuroscience, Physics, Computing, Biology, Psychology and everything in between.","fb":"https://www.facebook.com/debaditya.bhattacharya99/","github":"https://github.com/Debu922","mail":"debbh@iitk.ac.in"}
 ]}
     
