@@ -6,6 +6,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { Col, Row, Container } from "react-bootstrap";
 import "./announcements.css";
+import parse from 'html-react-parser';
 
 // Styling for the card
 const useStyles = makeStyles({
@@ -34,6 +35,7 @@ function AnnouncementsCard(props) {
   
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
+  var parse = require('html-react-parser');
 
   return (
     <Row className="justify-content-md-center my-4">
@@ -47,10 +49,10 @@ function AnnouncementsCard(props) {
               {props.date}
             </Typography>
             <hr />
-            <Typography variant="body2" component="p">
-              {props.content}
-            </Typography>
+            <div>{parse(props.content)}</div>
+            
           </CardContent>
+          
           <CardActions></CardActions>
         </Card>
       </Col>
