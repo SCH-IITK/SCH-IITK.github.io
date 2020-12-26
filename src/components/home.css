@@ -39,3 +39,6 @@
 .aboutUsCard {
   background-color: #ffffff;
 }
+.card {
+  height: auto !important;
+}

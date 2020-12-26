@@ -25,6 +25,7 @@ function Projects() {
                   title={project.title}
                   id={project.id}
                   end={project.end}
+                  image={project.image}
                 />
               );
             })}
