@@ -3,7 +3,10 @@ import { Col, Row, Container } from "react-bootstrap";
 import announcements from "../content/announcements.json";
 import AnnouncementsCard from "./AnnouncementsCard";
 
+
 function Announcements() {
+  
+
   return (
     <div>
 
