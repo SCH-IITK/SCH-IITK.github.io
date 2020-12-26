@@ -4,7 +4,6 @@ import { Row, Col, Container, Image } from "react-bootstrap";
 import { useParams } from "react-router";
 import projects from "../content/projects.json";
 import "./blog.css";
-import image from ".../public/";
 
 function Blog(props) {
   if (localStorage.getItem("reload") == "Reload") {
