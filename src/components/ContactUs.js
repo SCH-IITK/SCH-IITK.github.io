@@ -3,7 +3,12 @@ import "./contactUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import contacts from "../content/contactUs.json";
 import { Row, Col, Card, Container } from "react-bootstrap";
-import { AiFillFacebook, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiOutlineMail,
+  AiFillGithub,
+} from "react-icons/ai";
 function ContactUs() {
   return (
     <div>
@@ -44,17 +49,11 @@ function ContactUs() {
                             <AiFillFacebook
                               size={40}
                               color="#0B82ED"
-                              className="mx-3"
+                              className="mx-5"
                             />
                           </a>
-                          <a href={person.linkedin} target="_blank">
-                            <AiFillLinkedin
-                              size={40}
-                              color="#0A66C2"
-                              className="mx-4"
-                            />
-                          </a>
-                          <a href={person.mail} target="_blank">
+
+                          <a href={person.email} target="_blank">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
@@ -100,17 +99,11 @@ function ContactUs() {
                             <AiFillFacebook
                               size={40}
                               color="#0B82ED"
-                              className="mx-3"
+                              className="mx-5"
                             />
                           </a>
-                          <a href={person.linkedin} target="_blank">
-                            <AiFillLinkedin
-                              size={40}
-                              color="#0A66C2"
-                              className="mx-3"
-                            />
-                          </a>
-                          <a href={person.mail} target="_blank">
+
+                          <a href={person.email} target="_blank">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
@@ -162,17 +155,18 @@ function ContactUs() {
                             <AiFillFacebook
                               size={40}
                               color="#0B82ED"
-                              className="mx-3"
-                            />
-                          </a>
-                          <a href={person.linkedin} target="_blank">
-                            <AiFillLinkedin
-                              size={40}
-                              color="#0A66C2"
                               className="mx-4"
                             />
                           </a>
-                          <a href={`mailto:${person.mail}`} target="_blank">
+                          <a href={person.github} target="_blank">
+                            <AiFillGithub
+                              size={40}
+                              color="#333"
+                              className="mx-3"
+                            />
+                          </a>
+
+                          <a href={`mailto:${person.email}`} target="_blank">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
