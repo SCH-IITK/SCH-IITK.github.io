@@ -54,10 +54,6 @@ function Home() {
                 </Row>
               </Container>
             </div>
-            {/* <div>
-              <hr></hr>
-              <h2>Featured Talks</h2>
-            </div> */}
           </Col>
           <Col xs={12} md={4}>
             <Card bg="white" className="mt-2 sidebar">
