@@ -7,7 +7,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "@material-ui/core";
-import image from "../content/pictures/blogs.jpg";
 const useStyles = makeStyles({
   root: {
     display: "flex",
@@ -32,7 +31,7 @@ function BlogCard(props) {
       <Link href={"#/projects/" + props.id} style={{ textDecoration: "none" }}>
         <Card className={classes.root} href={"#/projects/" + props.id}>
           <CardActionArea className={classes.main}>
-            <CardMedia className={classes.media} image={image} />
+            <CardMedia className={classes.media} image={props.image} />
             <CardContent href={"#/projects/" + props.id}>
               <Typography variant="subtitle2" color="textSecondary">
                 {props.mentor}
