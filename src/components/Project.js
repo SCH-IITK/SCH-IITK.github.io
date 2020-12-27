@@ -35,14 +35,14 @@ function Blog(props) {
     <Container className="mt-5">
       <Row className="justify-content-md-center ">
         <Col xs={12} md={8}>
-          <h1 style={{ fontSize: "5vh" }}>{blogMeta.Header}</h1>
+          <h1 style={{ fontSize: "5vh" }}>{blogMeta.title}</h1>
         </Col>
       </Row>
       <Row className="justify-content-md-center pb-2">
         <Col xs={10} md={8}>
           <div style={({ fontWeight: "bold" }, { fontSize: "2vh" })}>
-            <p style={{ float: "left" }}>{blogMeta.Name}</p>{" "}
-            <p style={{ float: "right" }}>{blogMeta.date}</p>
+            <p style={{ float: "left" }}>Mentor: {blogMeta.mentor}</p>{" "}
+            <p style={{ float: "right" }}>{blogMeta.start} - {blogMeta.end}</p>
           </div>
         </Col>
       </Row>
@@ -58,7 +58,7 @@ function Blog(props) {
       </Row>
 
       <Row className="justify-content-md-center mt-5">
-        <Col xs={10} md={8}>
+        <Col xs={12} md={8}>
           <div
             class="fb-like"
             data-href={address}
@@ -70,12 +70,12 @@ function Blog(props) {
         </Col>
       </Row>
       <Row className="justify-content-md-center  ">
-        <Col xs={10} md={8}>
+        <Col xs={12} md={8}>
           <div
             class="fb-comments"
             data-href={address}
             data-numposts="5"
-            data-width=""
+            data-width="100%"
           ></div>
         </Col>
       </Row>

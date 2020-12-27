@@ -71,12 +71,12 @@ function Blog(props) {
         </Col>
       </Row>
       <Row className="justify-content-md-center  ">
-        <Col xs={10} md={8}>
+        <Col xs={12} md={8}>
           <div
             class="fb-comments"
             data-href={address}
             data-numposts="5"
-            data-width=""
+            data-width="100%"
           ></div>
         </Col>
       </Row>

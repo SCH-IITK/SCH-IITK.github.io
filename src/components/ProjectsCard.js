@@ -33,17 +33,16 @@ function ProjectsCard(props) {
           <CardActionArea className={classes.main}>
             <CardMedia className={classes.media} image={props.image} />
             <CardContent href={"#/projects/" + props.id}>
+              <Typography gutterBottom variant="h5" component="h2">
+                {props.title}
+              </Typography>
               <Typography variant="subtitle2" color="textSecondary">
                 {props.mentor}
               </Typography>
               <Typography variant="caption" color="textSecondary">
                 {props.start} - {props.end}
               </Typography>
-              <br />
-
-              <Typography gutterBottom variant="h5" component="h2">
-                {props.title}
-              </Typography>
+              <br/>
               <Typography variant="body2" color="textSecondary" component="p">
                 {props.desc.substring(0, 400) + "..."}
               </Typography>

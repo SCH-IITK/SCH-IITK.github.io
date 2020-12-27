@@ -5,6 +5,9 @@ import { Row, Col, Container, Alert, Card } from "react-bootstrap";
 import "./home.css";
 import blogs from "../content/blogs.json";
 import BlogCard from "./BlogCard";
+import project from "../content/projects.json";
+import ProjectsCards from "./ProjectsCard";
+
 function Home() {
   const [body, setBody] = useState("");
   const [news, setNews] = useState("");
@@ -29,7 +32,7 @@ function Home() {
     <div>
       <div className="background-image-home">.</div>
       <Container className="pb-2 pt-2">
-        <Alert variant="danger">Website is under construction!</Alert>
+        {/* <Alert variant="danger">Website is under construction!</Alert> */}
         <Row>
           <Col xs={12} md={8}>
             <Markdown>{body}</Markdown>
@@ -54,6 +57,27 @@ function Home() {
                 </Row>
               </Container>
             </div>
+            <div>
+              <hr></hr>
+              <h2>Featured Projects</h2>
+              <Container>
+                <Row className="justify-content-xs-center justify-content-md-center my-3">
+                  {project.feat.map((project) => {
+                    return (
+                      <ProjectsCards
+                        mentor={project.mentor}
+                        desc={project.desc}
+                        start={project.start}
+                        title={project.title}
+                        id={project.id}
+                        end={project.end}
+                        image={project.image}
+                      />
+                    );
+                  })}
+                </Row>
+              </Container>
+            </div>
           </Col>
           <Col xs={12} md={4}>
             <Card bg="white" className="mt-2 sidebar">
@@ -62,10 +86,7 @@ function Home() {
                   <h5>Enagage with us</h5>
                 </Card.Title>
                 <Card.Text>
-                  If you would like to engage with us, please follow us on
-                  Facebook and join our Discord channel for the latest updates.
-                  We also have a messanger group, and if you would like to be
-                  added please DM the page.
+                  If you would like to engage with us, please follow us on <a href="https://www.facebook.com/SCHIITK/">Facebook</a> and join our <a href="https://discord.gg/XyUuAh6PGZ">Discord server</a> for the latest updates. We also have a messanger group, and if you would like to be added please DM the page.
                 </Card.Text>
                 <Card.Text>
                   If you would like to contribute please drop a message to any
