@@ -24,7 +24,7 @@ const useStyles = makeStyles({
     flex: "1 0 150px",
   },
 });
-function BlogCard(props) {
+function ProjectsCard(props) {
   const classes = useStyles();
   return (
     <Row className="pt-2 pb-2">
@@ -55,4 +55,4 @@ function BlogCard(props) {
   );
 }
 
-export default BlogCard;
+export default ProjectsCard;

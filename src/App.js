@@ -18,6 +18,7 @@ import Announcements from "./components/Announcements";
 import Blog from "./components/Blog";
 import Project from "./components/Project";
 import Talks from "./components/Talks";
+import Talk from "./components/Talk";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/projects" component={Projects}></Route>
           <Route path="/projects/:id" component={Project}></Route>
           <Route exact path="/talks" component={Talks} />
+          <Route path="/talks/:id" component={Talk}></Route>
           <Route path="/contact">
             <ContactUs />
           </Route>

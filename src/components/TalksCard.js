@@ -2,25 +2,19 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "@material-ui/core";
-
 const useStyles = makeStyles({
   root: {
     display: "flex",
     maxWidth: "100%",
     flexDirection: "column",
-    alignContent: "space-between",
   },
   main: {
     display: "flex",
-    alignContent: "space-between",
-
     flexDirection: "row-reverse",
   },
   media: {
@@ -30,14 +24,11 @@ const useStyles = makeStyles({
     flex: "1 0 150px",
   },
 });
-function BlogCard(props) {
+function TalksCard(props) {
   const classes = useStyles();
   return (
     <Row className="pt-2 pb-2">
-      <Link
-        href={"#/blog/" + props.id}
-        style={{ textDecoration: "none", width: "100%" }}
-      >
+      <Link href={"#/blog/" + props.id} style={{ textDecoration: "none" }}>
         <Card className={classes.root} href={"#/blog/" + props.id}>
           <CardActionArea className={classes.main}>
             <CardMedia className={classes.media} image={props.imgUrl} />
@@ -67,4 +58,4 @@ function BlogCard(props) {
   );
 }
 
-export default BlogCard;
+export default TalksCard;
