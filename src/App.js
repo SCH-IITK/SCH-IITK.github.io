@@ -11,6 +11,7 @@ import {
   Link,
   HashRouter,
 } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./components/Home";
 import ContactUs from "./components/ContactUs";
 import Blogs from "./components/Blogs";
@@ -26,6 +27,7 @@ function App() {
       <div className="App">
         <Header />
         <div class="empty"></div>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Home} />
 
