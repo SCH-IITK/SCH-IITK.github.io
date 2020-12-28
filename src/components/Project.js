@@ -20,7 +20,7 @@ function Blog(props) {
   useEffect(() => {
     setMeta(projects.projects.find((project) => project.id == id));
     const readmePath = require(`../content/projects/${id}.md`);
-    setAddress("https://sch-iitk.github.io/#/blog/" + id);
+    setAddress("https://sch-iitk.github.io/#/projects/" + id);
     fetch(readmePath.default)
       .then((response) => response.text())
       .then((text) => {
@@ -42,7 +42,9 @@ function Blog(props) {
         <Col xs={10} md={8}>
           <div style={({ fontWeight: "bold" }, { fontSize: "2vh" })}>
             <p style={{ float: "left" }}>Mentor: {blogMeta.mentor}</p>{" "}
-            <p style={{ float: "right" }}>{blogMeta.start} - {blogMeta.end}</p>
+            <p style={{ float: "right" }}>
+              {blogMeta.start} - {blogMeta.end}
+            </p>
           </div>
         </Col>
       </Row>

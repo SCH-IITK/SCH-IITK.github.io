@@ -4,6 +4,7 @@ import ProjectsCards from "./ProjectsCard";
 import { Container, Row, Col } from "react-bootstrap";
 import "./projects.css";
 function Projects() {
+  localStorage.setItem("reload", "Reload");
   return (
     <div>
       <div className="background-image-projects">

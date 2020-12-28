@@ -5,6 +5,7 @@ import TalksCard from "./TalksCard";
 import talks from "../content/talks.json";
 
 function Talks() {
+  localStorage.setItem("reload", "Reload");
   return (
     <div>
       <div className="background-image-talks">

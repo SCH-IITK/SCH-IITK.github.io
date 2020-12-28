@@ -20,7 +20,7 @@ function Blog(props) {
   useEffect(() => {
     setMeta(projects.projects.find((project) => project.id == id));
     const readmePath = require(`../content/projects/${id}.md`);
-    setAddress("https://sch-iitk.github.io/#/blog/" + id);
+    setAddress("https://sch-iitk.github.io/#/talks/" + id);
     fetch(readmePath.default)
       .then((response) => response.text())
       .then((text) => {
@@ -70,7 +70,7 @@ function Blog(props) {
         </Col>
       </Row>
       <Row className="justify-content-md-center  ">
-       <Col xs={12} md={8}>
+        <Col xs={12} md={8}>
           <div
             class="fb-comments"
             data-href={address}
