@@ -53,7 +53,7 @@ function ContactUs() {
                             />
                           </a>
 
-                          <a href={person.email} target="_blank">
+                          <a href={`mailto:${person.email}`} target="_blank">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
@@ -103,7 +103,7 @@ function ContactUs() {
                             />
                           </a>
 
-                          <a href={person.email} target="_blank">
+                          <a href={`mailto:${person.email}`} target="_blank">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
