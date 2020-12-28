@@ -34,14 +34,14 @@ function ContactUs() {
                       </Card.Title>
                       <Card.Text>
                         <center style={{ fontSize: "1.2em" }}>
-                          {person.name}
+                          <p>{person.name.replace(/^\s+|\s+$/g, "")}</p>
                         </center>
                         <hr />
                         <div className="interests">
                           <h1 style={{ fontSize: "1em" }}>Interests:</h1>
-                          <span style={{ fontSize: "0.9em" }}>
-                            {person.interests}
-                          </span>
+                          <p style={{ fontSize: "0.9em" }}>
+                            {person.interests.replace(/ +(?= )/g, "")}
+                          </p>
                         </div>
                         <hr />
                         <div>
@@ -71,7 +71,7 @@ function ContactUs() {
           <Row className="justify-content-md-center  justify-content-xs-center p-1 my-3">
             {contacts.secys.map((person) => {
               return (
-                <Col md={3}>
+                <Col xl={3} lg={4} md={6}>
                   <Card
                     style={{ width: "17rem" }}
                     text="black"
