@@ -26,7 +26,7 @@ function Footer() {
               </a>
             </Col>
             <Col md={1} xs={2} className="my-4">
-              <a href="https://discord.gg/XyUuAh6PGZ" target="_blank">
+              <a href="https://discord.gg/MM3JVe6WdW" target="_blank">
                 <FaDiscord size={50} color="white" />
               </a>
             </Col>

@@ -86,7 +86,7 @@ function Home() {
                   <h5>Enagage with us</h5>
                 </Card.Title>
                 <Card.Text>
-                  If you would like to engage with us, please follow us on <a href="https://www.facebook.com/SCHIITK/">Facebook</a> and join our <a href="https://discord.gg/XyUuAh6PGZ">Discord server</a> for the latest updates. We also have a messanger group, and if you would like to be added please DM the page.
+                  If you would like to engage with us, please follow us on <a href="https://www.facebook.com/SCHIITK/">Facebook</a> and join our <a href="https://discord.gg/MM3JVe6WdW">Discord server</a> for the latest updates. We also have a messanger group, and if you would like to be added please DM the page.
                 </Card.Text>
                 <Card.Text>
                   If you would like to contribute please drop a message to any
