@@ -1,11 +1,51 @@
-{"projects":[
-    {"id":"3","image":"https://i.ytimg.com/vi/vxjRWtWoD_w/maxresdefault.jpg","mentor":"Debaditya Bhattacharya","title":"Introduction to Computational Thinking","start":"Dec 2020","end":"Jan 2020","desc":"SCH is lauching a reading group project where we will go through the course Introduction to Computational Thinking. The course is instructed by Alan Edelman, David P. Sanders, Grant Sanderson(3B1B), James Schloss and Benoit Forget. This is an introductory course on Computational Thinking. We use the Julia programming language to approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole. Topics include: Image analysis, Particle dynamics and ray tracing, Epidemic propagation, Climate modeling."},
-    {"id":"1","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Calabi_yau_formatted.svg/1200px-Calabi_yau_formatted.svg.png","mentor":"Gurmeet Singh","title":"String Theory for Dummies","start":"May 2020","end":"July 2020","desc":"Although General Relativity and Quantum Mechanics were highly successful in explaining several phenomena, what troubled the physicists was the incompatiblity of both the theories and thus the hunt for the \"Theory of Everything\" began with String Theory being one of the first candidates. String theory is a theoretical framework in which the point-like particles of particle physics are replaced by one-dimensional objects called strings. It is regarded as a complex  field of physics that only a select few understand.  We hit this myth out of the park in this project where we understood the nature of String Theory starting from scratch."},
-    {"id":"2","image":"https://i.ytimg.com/vi/ksjTWm9XaII/maxresdefault.jpg","mentor":"Ayush Parmar","title":"A Mathematical Approach to Classical Mechanics","start":"May 2020","end":"July 2020","desc":"It is almost perplexing how much one can buildup from Newton’s Laws using only mathematically rigorous tools such as topology, Lie algebra, and much more. We use these tools to develop the Lagrangian and Hamiltonian formulation to simplify the problems which would be a menace if we were to solve them using just Newton's equations! We used these formulations to obtain an elegant solution to the Heavy Symmetric Top."}
-        
-],
-"feat":[
-    {"id":"3","image":"https://i.ytimg.com/vi/vxjRWtWoD_w/maxresdefault.jpg","mentor":"Debaditya Bhattacharya","title":"Introduction to Computational Thinking","start":"Dec 2020","end":"Jan 2020","desc":"SCH is lauching a reading group project where we will go through the course Introduction to Computational Thinking. The course is instructed by Alan Edelman, David P. Sanders, Grant Sanderson(3B1B), James Schloss and Benoit Forget. This is an introductory course on Computational Thinking. We use the Julia programming language to approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole. Topics include: Image analysis, Particle dynamics and ray tracing, Epidemic propagation, Climate modeling."},
-    {"id":"1","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Calabi_yau_formatted.svg/1200px-Calabi_yau_formatted.svg.png","mentor":"Gurmeet Singh","title":"String Theory for Dummies","start":"May 2020","end":"July 2020","desc":"Although General Relativity and Quantum Mechanics were highly successful in explaining several phenomena, what troubled the physicists was the incompatiblity of both the theories and thus the hunt for the \"Theory of Everything\" began with String Theory being one of the first candidates. String theory is a theoretical framework in which the point-like particles of particle physics are replaced by one-dimensional objects called strings. It is regarded as a complex  field of physics that only a select few understand.  We hit this myth out of the park in this project where we understood the nature of String Theory starting from scratch."}
-    
-         ]}
+{
+    "projects": [
+        {
+            "id": "3",
+            "image": "./projects/covers/3.jpg",
+            "mentor": "Debaditya Bhattacharya",
+            "title": "Introduction to Computational Thinking",
+            "start": "Dec 2020",
+            "end": "Jan 2020",
+            "desc": "SCH is lauching a reading group project where we will go through the course Introduction to Computational Thinking. The course is instructed by Alan Edelman, David P. Sanders, Grant Sanderson(3B1B), James Schloss and Benoit Forget. This is an introductory course on Computational Thinking. We use the Julia programming language to approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole. Topics include: Image analysis, Particle dynamics and ray tracing, Epidemic propagation, Climate modeling."
+        },
+        {
+            "id": "1",
+            "image": "./projects/covers/1.jpg",
+            "mentor": "Gurmeet Singh",
+            "title": "String Theory for Dummies",
+            "start": "May 2020",
+            "end": "July 2020",
+            "desc": "Although General Relativity and Quantum Mechanics were highly successful in explaining several phenomena, what troubled the physicists was the incompatiblity of both the theories and thus the hunt for the \"Theory of Everything\" began with String Theory being one of the first candidates. String theory is a theoretical framework in which the point-like particles of particle physics are replaced by one-dimensional objects called strings. It is regarded as a complex  field of physics that only a select few understand.  We hit this myth out of the park in this project where we understood the nature of String Theory starting from scratch."
+        },
+        {
+            "id": "2",
+            "image": "./projects/covers/2.jpg",
+            "mentor": "Ayush Parmar",
+            "title": "A Mathematical Approach to Classical Mechanics",
+            "start": "May 2020",
+            "end": "July 2020",
+            "desc": "It is almost perplexing how much one can buildup from Newton’s Laws using only mathematically rigorous tools such as topology, Lie algebra, and much more. We use these tools to develop the Lagrangian and Hamiltonian formulation to simplify the problems which would be a menace if we were to solve them using just Newton's equations! We used these formulations to obtain an elegant solution to the Heavy Symmetric Top."
+        }
+    ],
+    "feat": [
+        {
+            "id": "3",
+            "image": "./projects/covers/3.jpg",
+            "mentor": "Debaditya Bhattacharya",
+            "title": "Introduction to Computational Thinking",
+            "start": "Dec 2020",
+            "end": "Jan 2020",
+            "desc": "SCH is lauching a reading group project where we will go through the course Introduction to Computational Thinking. The course is instructed by Alan Edelman, David P. Sanders, Grant Sanderson(3B1B), James Schloss and Benoit Forget. This is an introductory course on Computational Thinking. We use the Julia programming language to approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole. Topics include: Image analysis, Particle dynamics and ray tracing, Epidemic propagation, Climate modeling."
+        },
+        {
+            "id": "1",
+            "image": "./projects/covers/1.jpg",
+            "mentor": "Gurmeet Singh",
+            "title": "String Theory for Dummies",
+            "start": "May 2020",
+            "end": "July 2020",
+            "desc": "Although General Relativity and Quantum Mechanics were highly successful in explaining several phenomena, what troubled the physicists was the incompatiblity of both the theories and thus the hunt for the \"Theory of Everything\" began with String Theory being one of the first candidates. String theory is a theoretical framework in which the point-like particles of particle physics are replaced by one-dimensional objects called strings. It is regarded as a complex  field of physics that only a select few understand.  We hit this myth out of the park in this project where we understood the nature of String Theory starting from scratch."
+        }
+    ]
+}

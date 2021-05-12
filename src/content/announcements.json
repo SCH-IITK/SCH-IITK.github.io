@@ -1,5 +1,19 @@
-{"announcements":[
-    {"title":"Reading Group: Computational Thinking" ,"date":"23 December 2020","content":"<p>SCH is lauching a reading group project where we will go through the course <a href='https://computationalthinking.mit.edu/Fall20/'>Introduction to Computational Thinking</a>. The course is instructed by Alan Edelman, David P. Sanders, Grant Sanderson(3B1B), James Schloss and Benoit Forget.</p> <h6>Course Description</h6><p>This is an introductory course on Computational Thinking. We use the Julia programming language to approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole. Topics include: Image analysis, Particle dynamics and ray tracing, Epidemic propagation, Climate modeling</p> <p>The project will commence on 26th December. If you would like to be a part of the project join the computational-thinking discord channel on the SCH Discord server. Refer to this <a href='https://docs.google.com/document/d/1SuZ07mzLD3wNzyyBWZWcSVWiS6GtN9Iugh-ugAxQwHA/edit?usp=sharing'>google doc</a> for more information."},
-    {"title":"Website of SCH" ,"date":"10 December 2020","content":"<p>SCH gets a brand new website. Developed over the coruse of 3-4 weeks, by Abhinav Tiwari and Debaditya Bhattacharya.</p>" }
-        
-]}
+{
+    "announcements": [
+        {
+            "title": "Sumemr projects",
+            "date": "12 May 2021",
+            "content": "<p> Greetings from Science Coffee House!</p><p>SCH is looking for mentors to host summer projects. Y19 and higher batches are encouraged to apply for mentors. Mentors will be required to curate the material and come up with an action plan for their proposed project. While there is no intrinsic limitation on what the project should be, it is expected that the project maintains a good standard of scientific rigor. Interested people are requested to fill in the form below at the earliest. These projects will be released alongside other SnT Summer Projects. </p><p>Tentative Timeline for Summer Projects: 15th May,<p> 4pm- Summer Projects Presentation to Y20.<p>19th May   - Members Shortlist</p><p>20th May - Official Start Date</p><p>19th June - 20th June     - MidTerm Evaluations</p><p>24th July - 25th July - EndTerm Evaluations</p><p>Due to such short notice, we will be accepting project proposals till 16th May 11: 59PM. However, it is advised for the mentors to have a brief presentation for Y20 ready by 15th, to ensure good reach.</p><p>All necessary details regarding the project can be found in the google form.</p><p>For any further doubts, please reach out to the leaders of SCH on FB or on Discord. If you wish to offer a project as a club activity (disjoint from the SnT Summer Project and its timeline), please reach out to the club leaders.<p>Examples of previous year projects:</p><p> <a href = '/#/projects/1' target='_blank'>String Theory for Dummies:</a></p><p><a href= '/#/projects/2'  target='_blank'>A Mathematical Approach to Classical Mechanics: </a></p> <p> <a href = 'https://forms.gle/9oMjEBxYrk3zT52X9' target='_blank'> Google Form for mentor:</a> </p><p>Deadline: 16th April 11: 59PM</p><p>Happy sciencing!</p><p>Group Leaders,</p><p>Science Coffee House,</p><p>Science and Technology Council,</p><p>Students’ Gymkhana, IIT Kanpur</p>"
+        },
+        {
+            "title": "Reading Group: Computational Thinking",
+            "date": "23 December 2020",
+            "content": "<p>SCH is lauching a reading group project where we will go through the course <a href='https://computationalthinking.mit.edu/Fall20/'>Introduction to Computational Thinking</a>. The course is instructed by Alan Edelman, David P. Sanders, Grant Sanderson(3B1B), James Schloss and Benoit Forget.</p> <h6>Course Description</h6><p>This is an introductory course on Computational Thinking. We use the Julia programming language to approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole. Topics include: Image analysis, Particle dynamics and ray tracing, Epidemic propagation, Climate modeling</p> <p>The project will commence on 26th December. If you would like to be a part of the project join the computational-thinking discord channel on the SCH Discord server. Refer to this <a href='https://docs.google.com/document/d/1SuZ07mzLD3wNzyyBWZWcSVWiS6GtN9Iugh-ugAxQwHA/edit?usp=sharing'>google doc</a> for more information."
+        },
+        {
+            "title": "Website of SCH",
+            "date": "10 December 2020",
+            "content": "<p>SCH gets a brand new website. Developed over the coruse of 3-4 weeks, by Abhinav Tiwari and Debaditya Bhattacharya.</p>"
+        }
+    ]
+}
