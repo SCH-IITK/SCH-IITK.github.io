@@ -4,9 +4,8 @@ import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
-import { Col, Row, Container } from "react-bootstrap";
+import { Col, Row} from "react-bootstrap";
 import "./announcements.css";
-import parse from 'html-react-parser';
 
 // Styling for the card
 const useStyles = makeStyles({
@@ -34,7 +33,6 @@ const useStyles = makeStyles({
 function AnnouncementsCard(props) {
   
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
   var parse = require('html-react-parser');
 
   return (

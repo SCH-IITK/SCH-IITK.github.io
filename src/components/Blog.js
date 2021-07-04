@@ -3,11 +3,10 @@ import React, { useState, useEffect } from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import { useParams } from "react-router";
 import blogs from "../content/blogs.json";
-import Typography from "@material-ui/core/Typography";
 import "./blog.css";
 
 function Blog(props) {
-  if (localStorage.getItem("reload") == "Reload") {
+  if (localStorage.getItem("reload") === "Reload") {
     localStorage.setItem("reload", "NotReload");
     window.location.reload();
   }
@@ -19,7 +18,7 @@ function Blog(props) {
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    setMeta(blogs.blogs.find((blog) => blog.id == id));
+    setMeta(blogs.blogs.find((blog) => blog.id === id));
     const readmePath = require(`../content/blogs/${id}.md`);
     setAddress("https://sch-iitk.github.io/#/blog/" + id);
     fetch(readmePath.default)
@@ -29,7 +28,7 @@ function Blog(props) {
         // var metaData = text.match(/'([^']+)'/)[1];
         // setMeta(JSON.parse(metaData));
       });
-  });
+  },[id]);
   // var metaData = blog.match(/'([^']+)'/)[1];
   // setMeta(JSON.parse(metaData));
   return (

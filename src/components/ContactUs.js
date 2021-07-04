@@ -5,7 +5,6 @@ import contacts from "../content/contactUs.json";
 import { Row, Col, Card, Container } from "react-bootstrap";
 import {
   AiFillFacebook,
-  AiFillLinkedin,
   AiOutlineMail,
   AiFillGithub,
 } from "react-icons/ai";
@@ -45,7 +44,7 @@ function ContactUs() {
                         </div>
                         <hr />
                         <div>
-                          <a href={person.fb} target="_blank">
+                          <a href={person.fb} target="_blank"  rel="noreferrer" >
                             <AiFillFacebook
                               size={40}
                               color="#0B82ED"
@@ -53,7 +52,7 @@ function ContactUs() {
                             />
                           </a>
 
-                          <a href={`mailto:${person.email}`} target="_blank">
+                          <a href={`mailto:${person.email}`} target="_blank" rel="noreferrer">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
@@ -95,7 +94,7 @@ function ContactUs() {
                         </div>
                         <hr />
                         <div>
-                          <a href={person.fb} target="_blank">
+                          <a href={person.fb} target="_blank" rel="noreferrer">
                             <AiFillFacebook
                               size={40}
                               color="#0B82ED"
@@ -103,7 +102,7 @@ function ContactUs() {
                             />
                           </a>
 
-                          <a href={`mailto:${person.email}`} target="_blank">
+                          <a href={`mailto:${person.email}`} target="_blank" rel="noreferrer">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
@@ -151,14 +150,14 @@ function ContactUs() {
                         </div>
                         <hr />
                         <div>
-                          <a href={person.fb} target="_blank">
+                          <a href={person.fb} target="_blank" rel="noreferrer">
                             <AiFillFacebook
                               size={40}
                               color="#0B82ED"
                               className="mx-4"
                             />
                           </a>
-                          <a href={person.github} target="_blank">
+                          <a href={person.github} target="_blank" rel="noreferrer">
                             <AiFillGithub
                               size={40}
                               color="#333"
@@ -166,7 +165,7 @@ function ContactUs() {
                             />
                           </a>
 
-                          <a href={`mailto:${person.email}`} target="_blank">
+                          <a href={`mailto:${person.email}`} target="_blank"  rel="noreferrer">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"

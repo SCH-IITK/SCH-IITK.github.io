@@ -5,8 +5,8 @@ import { useParams } from "react-router";
 import projects from "../content/talks.json";
 import "./blog.css";
 
-function Blog(props) {
-  if (localStorage.getItem("reload") == "Reload") {
+function Blog() {
+  if (localStorage.getItem("reload") === "Reload") {
     localStorage.setItem("reload", "NotReload");
     window.location.reload();
   }
@@ -18,7 +18,7 @@ function Blog(props) {
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    setMeta(projects.projects.find((project) => project.id == id));
+    setMeta(projects.projects.find((project) => project.id === id));
     const readmePath = require(`../content/projects/${id}.md`);
     setAddress("https://sch-iitk.github.io/#/talks/" + id);
     fetch(readmePath.default)
@@ -28,7 +28,7 @@ function Blog(props) {
         // var metaData = text.match(/'([^']+)'/)[1];
         // setMeta(JSON.parse(metaData));
       });
-  });
+  },[id]);
   // var metaData = blog.match(/'([^']+)'/)[1];
   // setMeta(JSON.parse(metaData));
   return (

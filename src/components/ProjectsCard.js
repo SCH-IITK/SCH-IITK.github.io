@@ -5,7 +5,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-import { Col, Row } from "react-bootstrap";
+import {  Row } from "react-bootstrap";
 import { Link } from "@material-ui/core";
 const useStyles = makeStyles({
   root: {

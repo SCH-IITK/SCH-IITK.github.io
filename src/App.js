@@ -5,10 +5,10 @@ import { createBrowserHistory } from "history";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import {
-  BrowserRouter as Router,
+  
   Switch,
   Route,
-  Link,
+ 
   HashRouter,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";

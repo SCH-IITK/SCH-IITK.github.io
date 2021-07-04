@@ -2,10 +2,6 @@ import React from "react";
 import {
   Navbar,
   Nav,
-  Button,
-  Form,
-  FormControl,
-  Image,
   Row,
   Col,
   Container,
@@ -15,7 +11,7 @@ import { createBrowserHistory } from "history";
 import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
-  BrowserRouter as Router,
+  
   HashRouter,
 } from "react-router-dom";
 

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Markdown from "./Markdown";
-import intro from "../SCH_professional_iitk.jpg";
-import { Row, Col, Container, Alert, Card } from "react-bootstrap";
+import { Row, Col, Container, Card } from "react-bootstrap";
 import "./home.css";
 import blogs from "../content/blogs.json";
 import BlogCard from "./BlogCard";
@@ -109,6 +108,7 @@ function Home() {
 
             <Container className="p-0 pt-2">
               <iframe
+               title="Discord"
                 src="https://discord.com/widget?id=740597274807238697&theme=light"
                 width="100%"
                 height="500"

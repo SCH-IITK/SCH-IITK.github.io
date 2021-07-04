@@ -16,17 +16,17 @@ function Footer() {
         <Container fluid="md" className="logo">
           <Row className="justify-content-center justify-content-md-center p-2">
             <Col md={1} xs={2} className="my-4">
-              <a href="https://www.facebook.com/SCHIITK" target="_blank">
+              <a href="https://www.facebook.com/SCHIITK" target="_blank" rel="noreferrer" >
                 <FaFacebook size={50} color="white" />
               </a>
             </Col>
             <Col md={1} xs={2} className="my-4">
-              <a href="https://www.m.me/SCHIITK" target="_blank">
+              <a href="https://www.m.me/SCHIITK" target="_blank" rel="noreferrer" >
                 <FaFacebookMessenger size={50} color="white" />
               </a>
             </Col>
             <Col md={1} xs={2} className="my-4">
-              <a href="https://discord.gg/MM3JVe6WdW" target="_blank">
+              <a href="https://discord.gg/MM3JVe6WdW" target="_blank" rel="noreferrer" >
                 <FaDiscord size={50} color="white" />
               </a>
             </Col>
