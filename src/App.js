@@ -20,6 +20,7 @@ import Blog from "./components/Blog";
 import Project from "./components/Project";
 import Talks from "./components/Talks";
 import Talk from "./components/Talk";
+import FourZeroFour from "./components/FourZeroFour";
 
 function App() {
   return (
@@ -37,12 +38,16 @@ function App() {
           <Route path="/projects/:id" component={Project}></Route>
           <Route exact path="/talks" component={Talks} />
           <Route path="/talks/:id" component={Talk}></Route>
-          <Route path="/contact">
+          <Route exact path="/contact">
             <ContactUs />
           </Route>
 
-          <Route path="/announcements">
+          <Route exact path="/announcements">
             <Announcements />
+          </Route>
+
+          <Route path="*">
+            <FourZeroFour />
           </Route>
         </Switch>
         <Footer />
