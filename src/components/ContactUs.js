@@ -33,7 +33,7 @@ function ContactUs() {
                       </Card.Title>
                       <Card.Text>
                         <center style={{ fontSize: "1.2em" }}>
-                          <p>{person.name.replace(/^\s+|\s+$/g, "")}</p>
+                          {person.name.replace(/^\s+|\s+$/g, "")}
                         </center>
                         <hr />
                         <div className="interests">
@@ -103,69 +103,6 @@ function ContactUs() {
                           </a>
 
                           <a href={`mailto:${person.email}`} target="_blank" rel="noreferrer">
-                            <AiOutlineMail
-                              size={40}
-                              color="#FE2C39"
-                              className="mx-3"
-                            />
-                          </a>
-                        </div>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              );
-            })}
-          </Row>
-          <Row className="justify-content-md-center  justify-content-xs-center p-1 my-3">
-            {contacts.webdev.map((person) => {
-              return (
-                <Col md={6}>
-                  <Card
-                    style={{ width: "18rem" }}
-                    text="black"
-                    className="card my-2"
-                  >
-                    <Card.Img variant="top" src={person.imgurl} />
-                    <Card.Body>
-                      <Card.Title>
-                        <center style={{ fontSize: "0.8em" }}>
-                          Web Development Team
-                        </center>
-                      </Card.Title>
-                      <Card.Text>
-                        <center style={{ fontSize: "1.2em" }}>
-                          {person.name}
-                        </center>
-                        <hr></hr>
-                        <div className="interests">
-                          <h1 style={{ fontSize: "1em" }}>Interests:</h1>
-                          <span
-                            style={{
-                              fontSize: "0.9em",
-                            }}
-                          >
-                            {person.interests}
-                          </span>
-                        </div>
-                        <hr />
-                        <div>
-                          <a href={person.fb} target="_blank" rel="noreferrer">
-                            <AiFillFacebook
-                              size={40}
-                              color="#0B82ED"
-                              className="mx-4"
-                            />
-                          </a>
-                          <a href={person.github} target="_blank" rel="noreferrer">
-                            <AiFillGithub
-                              size={40}
-                              color="#333"
-                              className="mx-3"
-                            />
-                          </a>
-
-                          <a href={`mailto:${person.email}`} target="_blank"  rel="noreferrer">
                             <AiOutlineMail
                               size={40}
                               color="#FE2C39"
