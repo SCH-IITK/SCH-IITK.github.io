@@ -5,8 +5,7 @@ import contacts from "../content/contactUs.json";
 import { Row, Col, Card, Container } from "react-bootstrap";
 import {
   AiFillFacebook,
-  AiOutlineMail,
-  AiFillGithub,
+  AiOutlineMail
 } from "react-icons/ai";
 function ContactUs() {
   return (
