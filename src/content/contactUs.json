@@ -1,98 +1,12 @@
 {
   "leaders": [
     {
-      "name": "Debaditya Bhattacharya",
-      "imgurl": "./contactUs/Debaditya.jpg",
-      "interests": "Electronics, Neuroscience, Quantum Physics, HPC",
-      "fb": "https://www.facebook.com/debbh922",
-      "github": "https://github.com/Debu922",
-      "email": "debbh922@gmail.com"
-    },
-    {
-      "name": "Dawood Bin Mansoor",
-      "imgurl": "./contactUs/Dawood.jpg",
-      "interests": "Model Theory, Algebraic Geometry, Combinatorics and a lot more.",
-      "fb": "https://www.facebook.com/dawood.binmansoor/",
-      "email": "dawood@iitk.ac.in"
-    }
-  ],
-  "secys": [
-    {
-      "name": "Kumar Arpit",
-      "imgurl": "./contactUs/Arpit.jpg",
-      "interests": "Mathematics and Theoretical Computer Science",
-      "fb": "https://www.facebook.com/KumarArpit.987.DonBosco",
-      "email": "arpit20@iitk.ac.in"
-    },
-    {
-      "name": "Priya Gole",
-      "imgurl": "./contactUs/Priya.jpg",
-      "interests": "Discrete & Applied Mathematics, Astrophysics, Machine Learning",
-      "fb": "https://www.facebook.com/priya.gole.399488",
-      "email": "priyagole20@iitk.ac.in"
-    },
-    {
-      "name": "Kalash Talati",
-      "imgurl": "./contactUs/Kalash.jpg",
-      "interests": "Quantum Physics, Particle Physics, Astronomy and Cosmology, Immunology, Sports",
-      "fb": "https://m.facebook.com/100005180070400/",
-      "email": "talatikalash@gmail.com"
-    },
-    {
-      "name": "Ishita Vyavahare",
-      "imgurl": "./contactUs/Ishita.jpg",
-      "interests": "Chaos theory, Information theory, Astronomy",
-      "fb": "https://www.facebook.com/ishita.vyavahare.0/",
-      "email": "ishitavyavahare@gmail.com"
-    },
-    {
-      "name": "Arkachur Bhattacharya",
-      "imgurl": "./contactUs/Arkachur.jpg",
-      "interests": "Quantum Mechanics, Special and General Relativity, Chaos Theory, Analysis",
-      "fb": "https://www.facebook.com/arkachur.bhattacharya.1",
-      "email": "arkachurb20@iitk.ac.in"
-    },
-    {
-      "name": "Srujan Killada",
-      "imgurl": "./contactUs/Srujan.jpg",
-      "interests": "Fundamental Physics, Geometry and Philosophy & History of Science",
-      "fb": "https://www.facebook.com/lakshita.mohanty.5",
-      "email": "lakshita@iitk.ac.in"
-    },
-    {
-      "name": "Om Jee",
-      "imgurl": "./contactUs/Om.jpg",
-      "interests": "Special theory of relativity, Relativistic electrodynamics, Particle physics",
-      "fb": "https://www.facebook.com/profile.php?id=100057579249812",
-      "email": "omjee20@iitk.ac.in"
-    },
-    {
-      "name": "Hardik Singhal",
-      "imgurl": "./contactUs/Hardik.jpg",
-      "interests": "Nanotechnology, quantum physics, theoretical physics",
-      "fb": "https://www.facebook.com/hardik.singhal.39",
-      "email": "hardiks20@iitk.ac.in"
-    },
-    {
-      "name": "Akshat Mishra",
-      "imgurl": "./contactUs/Akshat.jpg",
-      "interests": "Biochemistry, Biology(concerned mainly with Genetics and Evolution), Biotechnology and Mathematics",
-      "fb": "https://www.facebook.com/akshat.mishra.50999405",
-      "email": "akshatm20@iitk.ac.in"
-    },
-    {
-      "name": "Nakul Patel",
-      "imgurl": "./contactUs/Nakul.png",
-      "interests": "Chaos theory, Complex Process, Quantum Computing",
-      "fb": "https://www.facebook.com/profile.php?id=100013103077505",
-      "email": "nakulp20@iitk.ac.in"
-    },
-    {
-      "name": "Prabhdeep Kaur",
-      "imgurl": "./contactUs/prabhdeep.jpeg",
-      "interests": "My interests range from cosmology to learning about the functioning of brain, design science",
-      "fb": "https://www.facebook.com/profile.php?id=100057394009353",
-      "email": "prabhdeep20@iitk.ac.in"
+      "name": "Mohammad Saad",
+      "imgurl": "./contactUs/IMG_5363_1.JPG",
+      "interests": "Theoretical Physics, Mathematical Physics, Philosophy and History of Science",
+      "fb": "https://www.facebook.com/saad.mohammad.52493/",
+      "github": "https://github.com/mohammad-saad-0",
+      "email": "saad92tasneem@gmail.com"
     }
   ]
 }
